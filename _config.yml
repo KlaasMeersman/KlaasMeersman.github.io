@@ -35,10 +35,13 @@ kramdown:
   syntax_highlighter: coderay
 
 header_pages:
-  - inhoud/.../index.md
-  - inhoud/.../index.md
-  - inhoud/.../index.md
-  - inhoud/.../index.md
+  - inhoud/aansturingLampen/index.md
+  - inhoud/aquaMonitoring/index.md
+  - inhoud/dashboard/index.md
+  - inhoud/modulariteit/index.md
+  - inhoud/plantensensor/index.md
+  - inhoud/pompen&energiemonitoring/index.md
+
 
 google_site_verification: "cBYpSqc17Jx3NXWnR6gz8v8d7Gs7lRmBOXAHTUqdOyM"
 

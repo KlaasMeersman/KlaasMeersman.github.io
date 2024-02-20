@@ -1,0 +1,9 @@
+notities vermogen aansturing en meting
+	
+	-vóór het meten van de nodige mmol/(m²*s) => we gaan uit van maximaal (39+15+12)V * 1A  = 66W. We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
+	
+	stappenplan: 
+		-Papers voor nodige mmol/(m²*s)
+		-boost buck convertor voor aansturing: minimaal 39,15,12 V. 1A max, eerder 500mA waarschijnlijk
+		-implementatie op één pcb; 3 boostbuck convertors, controleerbaar met ESP32
+		-high voltage input, low voltage output opmap for voltage sensing
