@@ -35,10 +35,10 @@ kramdown:
   syntax_highlighter: coderay
 
 header_pages:
-  - user-stories/index.md
-  - achievements/index.md
-  - ideas/index.md
-  - meetings/index.md
+  - inhoud/.../index.md
+  - inhoud/.../index.md
+  - inhoud/.../index.md
+  - inhoud/.../index.md
 
 google_site_verification: "cBYpSqc17Jx3NXWnR6gz8v8d7Gs7lRmBOXAHTUqdOyM"
 
