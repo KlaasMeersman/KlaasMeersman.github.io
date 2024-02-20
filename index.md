@@ -1,4 +1,4 @@
-#Bezoek aan Colruyt groep
+# Bezoek aan Colruyt groep
 
 Voor het project rond vertical farming zijn we op bezoek geweest bij Colruyt groep om hun implementatie te bekijken. We lichten de opgedane kennis voor het verbeteren van ons project toe op deze pagina.
 
