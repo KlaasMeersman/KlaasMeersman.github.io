@@ -3,7 +3,11 @@ title: Aansturing lampen
 ---
 
 
-Er moeten metingen gebeuren om nodige mmol/(m²*s) te bepalen. We gaan uit van maximaal ((39+15+12)V * 1A  =) 66W. We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
+Er moeten metingen gebeuren om nodige mmol/(m²*s) te bepalen. We gaan uit van maximaal 
+
+        ((39+15+12)V * 1A  =) 66W
+
+ We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
 	
 Volgende punten moeten verder uitgewerkt worden en zijn de eerste stappen die we zullen nemen:
 
