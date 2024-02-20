@@ -3,7 +3,7 @@ title: Aansturing lampen
 ---
 
 
-## notities vermogen aansturing en meting
+## notities vermogenaansturing en meting
 	
 vóór het meten van de nodige mmol/(m²*s) => we gaan uit van maximaal (39+15+12)V * 1A  = 66W. We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
 	
