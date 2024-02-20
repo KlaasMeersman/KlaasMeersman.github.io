@@ -3,12 +3,13 @@ title: Aansturing lampen
 ---
 
 
-## notities vermogenaansturing en meting
+Er moeten metingen gebeuren om nodige mmol/(m²*s) te bepalen. We gaan uit van maximaal ((39+15+12)V * 1A  =) 66W. We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
 	
-vóór het meten van de nodige mmol/(m²*s) => we gaan uit van maximaal (39+15+12)V * 1A  = 66W. We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
-	
-## stappenplan
-* Papers voor nodige mmol/(m²*s)
-* boost buck convertor voor aansturing: minimaal 39,15,12 V. 1A max, eerder 500mA waarschijnlijk
-* implementatie op één pcb; 3 boostbuck convertors, controleerbaar met ESP32
+Volgende punten moeten verder uitgewerkt worden en zijn de eerste stappen die we zullen nemen:
+
+* papers lezen voor nodige mmol/(m²*s)
+* boost-buck convertor voor aansturing: minimaal 39,15,12V. 1A max, eerder 500mA waarschijnlijk
+* reverse engeneren van stroommeter
 * high voltage input, low voltage output opmap for voltage sensing
+* implementatie op één pcb; 3 boostbuck convertors, 3 metingen voor voltage en stroom (controleerbaar met ESP32)
+
