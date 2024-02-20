@@ -13,7 +13,7 @@ Volgende punten moeten verder uitgewerkt worden en zijn de eerste stappen die we
 
 * papers lezen voor nodige lichthoeveelheid $(mmol/(m²*s))$
 * boost-buck convertor voor aansturing: minimaal 39,15,12V. 1A max, eerder 500mA waarschijnlijk
-* reverse engineren van [stroommeter](https://www.digikey.be/en/products/detail/sparkfun-electronics/SEN-14544/9452026)
+* reverse engineeren van [stroommeter](https://www.digikey.be/en/products/detail/sparkfun-electronics/SEN-14544/9452026)
 * high voltage input, low voltage output opmap for voltage sensing
 * implementatie op één pcb; 3 boostbuck convertors, 3 metingen voor voltage en stroom (controleerbaar met ESP32)
 
