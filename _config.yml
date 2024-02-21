@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Vertical farm - IB3
-email: /
+email: klaas.meersman@student.kuleuven.be, axel.martens@student.kuleuven.be, arthur.valentin@student.kuleuven.be, bert.pyck@student.kuleuven.be
 description: >- # this means to ignore newlines until "baseurl:"
   (Not very organized, just sharing our thoughts)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://klaasmeersman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: /
-github_username:  klaasmeersman
+github_username:  klaasmeersman, AxelMartens
 
 # Build settings
 markdown: kramdown
