@@ -13,7 +13,7 @@ title: Logboek
 * opzoeken CO2-sensor
 * 2e hands (oude pc) ventilatoren + aansturing voor planten te laten bewegen
 * info over LEDS gaan vragen bij Jan Audenaert
-* LEDs aangestuurd met labovoeding: stroom bepaald (zie [aansturing lampen](/../inhoud/aansturingLampen/index.md))
+* LEDs aangestuurd met labovoeding: stroom bepaald (zie [aansturing lampen](/../inhoud/aansturingLEDs/index.md))
  * opzoek werk buck convertors (geen resultaat)
  * mmol/(m²*s) info opzoeken
 
@@ -27,3 +27,5 @@ title: Logboek
  * opzoekwerk buck-convertor
  * DC-motor aansturen voor propeller
  * bestellingen geplaatst: ()
+ * testen van step-down buck convertor en boost convertor => deze werken en kunnnen gebruikt worden
+ * propellerontwerp + starten 3D-print
