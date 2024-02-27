@@ -5,7 +5,7 @@ title: Logboek
 
 13 februari 2024:
 
-    * bedrijfsbezoek
+* bedrijfsbezoek
 
 20 februari 2024:
 
