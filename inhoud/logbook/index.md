@@ -13,7 +13,7 @@ title: Logboek
 * opzoeken CO2-sensor
 * 2e hands (oude pc) ventilatoren + aansturing voor planten te laten bewegen
 * info over LEDS gaan vragen bij Jan Audenaert
-* LEDs aangestuurd met labovoeding: stroom bepaald (zie [aansturing lampen](inhoud/aansturingLampen/index.md))
+* LEDs aangestuurd met labovoeding: stroom bepaald (zie [aansturing lampen](/../inhoud/aansturingLampen/index.md))
  * opzoek werk buck convertors (geen resultaat)
  * mmol/(m²*s) info opzoeken
 
