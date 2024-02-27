@@ -2,9 +2,9 @@
 title: Aansturing LED's
 ---
 
-* **A**(R+B): 39V
-* **C**(uit): 15V
-* **D**(FR): 12V 
+* **A**: 39V
+* **C**: 15V
+* **D**: 12V 
 
 Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen. We gaan uit van maximaal 
 
@@ -13,8 +13,9 @@ Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen
  We willen kunnen meten tussen 3.3W(50mA) en 66W(1A).
 	
 
-**We werken met 3 convertors:**
- We regelen de lichtintensiteit met voltage, en limiteren de stroom naar de LEDs niet bij ingestelde voltage. Hieronder enkele waarden:
+**We werken met 3 convertors**
+
+ We regelen de lichtintensiteit met voltage, en limiteren de stroom naar de LEDs niet bij ingestelde voltage. Hieronder enkele waarden
 
 * 2x [QSKJ DC-DC Adjustable Step-down Buck Converter XL4016 200W](https://www.tinytronics.nl/en/power/voltage-converters/buck-(step-down)-converters/dc-dc-ajustable-step-down-buck-converter-xl4016-200w)        
                
@@ -23,7 +24,7 @@ Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen
         voor D:         16,32V, 750mA
                         15,09V, 500mA
 
-* 1X [50V/12A TL494 Step-Up DC-DC Converter – CV/CC Control](https://handsontec.com/index.php/product/50v-12a-tl494-step-up-dc-dc-converter-cv-cv-control/)
+* 1x [50V/12A TL494 Step-Up DC-DC Converter – CV/CC Control](https://handsontec.com/index.php/product/50v-12a-tl494-step-up-dc-dc-converter-cv-cv-control/)
                
         voor A:         43,9V, 760mA
                         42,9, 500mA
