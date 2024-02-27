@@ -20,3 +20,14 @@ Volgende punten moeten verder uitgewerkt worden en zijn de eerste stappen die we
 * high voltage input, low voltage output opmap for voltage sensing
 * implementatie op één pcb; 3 boostbuck convertors, 3 metingen voor voltage en stroom (controleerbaar met ESP32)
 
+We werken met 3 convertors:
+* 2x [QSKJ DC-DC Adjustable Step-down Buck Converter XL4016 200W](https://www.tinytronics.nl/en/power/voltage-converters/buck-(step-down)-converters/dc-dc-ajustable-step-down-buck-converter-xl4016-200w)
+        vervangen potentiometer door digitale potentometer
+        we regelen met voltage, en laten we LEDs de stroom die ze willen trekken bij ingestelde voltage
+        todo: uitmeten potentiometer waarden voor volgende ingestelde waarden:
+                voor **C**:     18,09V bij 750mA
+                                17,39V bij 500mA
+                voor **D**:     16,32V bij 750mA
+                                15,09V bij 500mA
+
+* 1X [50V/12A TL494 Step-Up DC-DC Converter – CV/CC Control](https://handsontec.com/index.php/product/50v-12a-tl494-step-up-dc-dc-converter-cv-cv-control/)
