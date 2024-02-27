@@ -1,5 +1,5 @@
 ---
-title: Aansturing lampen
+title: Aansturing LED's
 ---
 
 * **A**(R+B): 39V
