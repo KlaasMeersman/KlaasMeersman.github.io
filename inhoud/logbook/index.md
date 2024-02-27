@@ -4,9 +4,11 @@ title: Logboek
 
 
 13 februari 2024:
+
     * bedrijfsbezoek
 
 20 februari 2024:
+
     *email verzonden voor gratis samples van rockwool bij Grodan
     *opzoeken CO2-sensor
     *2e hands (oude pc) ventilatoren + aansturing voor planten te laten bewegen
@@ -17,10 +19,10 @@ title: Logboek
 
 
 27 februari 2024:
+
     * laatste opzoekwerk voor CO2-sensor
     * nieuwe e-mail naar Grodan
     * ESP-home testen
     * ventilator aansturen met L298N
     * opzoekwerk buck-convertor
     * DC-motor aansturen voor propeller
-    
