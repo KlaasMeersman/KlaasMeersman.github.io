@@ -2,7 +2,9 @@
 title: Aansturing lampen
 ---
 
-
+* **A**(R+B): 39V
+* **C**(uit): 15V
+* **D**(FR): 12V 
 Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen. We gaan uit van maximaal 
 
         ((39+15+12)V * 1A  =) 66W
