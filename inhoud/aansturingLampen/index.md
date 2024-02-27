@@ -31,3 +31,8 @@ We werken met 3 convertors:
                                 15,09V bij 500mA
 
 * 1X [50V/12A TL494 Step-Up DC-DC Converter – CV/CC Control](https://handsontec.com/index.php/product/50v-12a-tl494-step-up-dc-dc-converter-cv-cv-control/)
+                voor **A**:     43,9V bij 760mA
+                                42,9 bij 500mA
+                                42.2V bij 350mA
+                                41.7V bij 240mA
+                                41.1V bij 150mA
