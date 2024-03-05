@@ -44,3 +44,6 @@ Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen
 * 3 boostbuck convertors, 3 metingen voor voltage en stroom (controleerbaar met ESP32)
 * high voltage input, low voltage output opmap for voltage sensing
 * reverse engineeren van [stroommeter](https://www.digikey.be/en/products/detail/sparkfun-electronics/SEN-14544/9452026). Deze stroommeter kan van 10mA tot 5A meten, dit valt binnen de door ons opgelegde specificaties
+
+**Uitmeten regelweerstanden convertors in circuit**
+
