@@ -46,4 +46,17 @@ Er moeten metingen gebeuren om nodige lichthoeveelheid (mmol/(m²*s)) te bepalen
 * reverse engineeren van [stroommeter](https://www.digikey.be/en/products/detail/sparkfun-electronics/SEN-14544/9452026). Deze stroommeter kan van 10mA tot 5A meten, dit valt binnen de door ons opgelegde specificaties
 
 **Uitmeten regelweerstanden convertors in circuit**
+Voor  1x [50V/12A TL494 Step-Up DC-DC Converter – CV/CC Control](https://handsontec.com/index.php/product/50v-12a-tl494-step-up-dc-dc-converter-cv-cv-control/)
+
+500mA naar 250mA is 50 ohm verschil.
+250mA /50 ohm
+5mA/1ohm
+
+10000/1024 => steps of 10 ohm
+50mA per step
+
+
+1000/256 => steps of 4 ohm
+20mA per step
+
 
