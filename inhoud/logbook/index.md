@@ -29,3 +29,9 @@ title: Logboek
  * bestellingen geplaatst: ()
  * testen van step-down buck convertor en boost convertor => deze werken en kunnnen gebruikt worden
  * propellerontwerp + starten 3D-print
+
+ 5 maart 2024:
+
+* netstroom naar convertors (230V AC naar 19V/6A DC)
+* desolderen en meten potentiometers
+* opzoekwerk digitale potentiometers (probleem met nauwkeurigheid)
