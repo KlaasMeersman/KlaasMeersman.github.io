@@ -34,7 +34,7 @@ title: Logboek
 
  5 maart 2024:
 
-* netstroom naar convertors (230V AC naar 19V/6A DC)
-* desolderen en meten potentiometers
-* opzoekwerk digitale potentiometers (probleem met nauwkeurigheid)
+* Netstroom naar convertors (230V AC naar 19V/6A DC)
+* Desolderen en meten potentiometers
+* Opzoekwerk digitale potentiometers (probleem met nauwkeurigheid)
 * Poging om Grodan te contacteren
