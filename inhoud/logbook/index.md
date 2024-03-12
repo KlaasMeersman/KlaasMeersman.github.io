@@ -9,29 +9,32 @@ title: Logboek
 
 20 februari 2024:
 
-* email verzonden voor gratis samples van rockwool bij Grodan
-* opzoeken CO2-sensor
-* 2e hands (oude pc) ventilatoren + aansturing voor planten te laten bewegen
-* info over LEDS gaan vragen bij Jan Audenaert
+* E-mail verzonden voor gratis samples van rockwool bij Grodan
+* Opzoeken CO2-sensor
+* Tweedehands (oude pc) ventilatoren + aansturing voor planten te laten bewegen
+* Info over LEDS gaan vragen bij Jan Audenaert
 * LEDs aangestuurd met labovoeding: stroom bepaald (zie [aansturing lampen](/inhoud/aansturingLEDs/))
- * opzoek werk buck convertors (geen resultaat)
+ * Opzoekwerk buck convertors (geen resultaat)
  * mmol/(m²*s) info opzoeken
+ * Opzoekwerk ion-sensoren/ pompmechanismen
 
 
 27 februari 2024:
 
- * laatste opzoekwerk voor CO2-sensor
- * nieuwe e-mail naar Grodan
+ * Laatste opzoekwerk voor CO2-sensor
+ * Nieuwe e-mail naar Grodan
  * ESP-home testen
- * ventilator aansturen met L298N
- * opzoekwerk buck-convertor
+ * Ventilator aansturen met L298N
+ * Opzoekwerk buck-convertor
  * DC-motor aansturen voor propeller
- * bestellingen geplaatst: ()
- * testen van step-down buck convertor en boost convertor => deze werken en kunnnen gebruikt worden
- * propellerontwerp + starten 3D-print
+ * Bestellingen geplaatst: ()
+ * Testen van step-down buck convertor en boost convertor => deze werken en kunnnen gebruikt worden
+ * Research homogene mengsels voor nutrient monitoring
+ * Impellerrontwerp + starten 3D-print
 
  5 maart 2024:
 
 * netstroom naar convertors (230V AC naar 19V/6A DC)
 * desolderen en meten potentiometers
 * opzoekwerk digitale potentiometers (probleem met nauwkeurigheid)
+* Poging om Grodan te contacteren
