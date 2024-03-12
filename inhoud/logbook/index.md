@@ -38,3 +38,10 @@ title: Logboek
 * Desolderen en meten potentiometers
 * Opzoekwerk digitale potentiometers (probleem met nauwkeurigheid)
 * Poging om Grodan te contacteren
+
+12 maart 2024:
+
+* contactmoment met Grodan
+* begonnen aan frame vertical farm
+* klaar met LED bediening, wachten totdat erasmusmundus studenten meer weten over specificaties LED's
+
