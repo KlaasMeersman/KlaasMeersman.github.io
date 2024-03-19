@@ -16,18 +16,7 @@ Om de planten goed te voorzien van
 
 <iframe src="schematic.pdf" width="100%" height="600px"></iframe>
 ![](PCB_plantensensor.png)
-[Download](soil-moisture.yaml)
 
-<script>
-fetch('soil-moisture.yaml')
-  .then(response => response.text())
-  .then(data => {
-    // Assuming YAML data is loaded as plain text
-    // You may need a YAML parser library if the data is not in plain text format
-    document.getElementById('yamlContent').innerText = data;
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
-</script>
-
+# Yaml Files 
+[Download soil-moisture.yaml](soil-moisture.yaml)
+[Download ventilator.yaml](ventilator.yaml)
