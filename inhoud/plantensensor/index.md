@@ -8,4 +8,7 @@ De PCB die we ontworpen hebben kan voorzien worden van twee SCD4X sensoren en tw
 SCD4X kan de CO2, temperatuur en vochtigheid van de lucht meten. Deze zijn cruciaal voor de groei van de planten om te monitoren. 
 De grond-vochtigheidsensor kan gebruikt worden om de meten hoe vochtig de grond is en zo de planten extra of minder water de geven. 
 
+# PCB-design
+
 ![](PCB_plantensensor.png)
+![](schematic.pdf)
