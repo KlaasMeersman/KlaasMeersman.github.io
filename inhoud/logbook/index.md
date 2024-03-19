@@ -44,4 +44,13 @@ title: Logboek
 * contactmoment met Grodan
 * begonnen aan frame vertical farm
 * klaar met LED bediening, wachten totdat erasmusmundus studenten meer weten over specificaties LED's
+* Uitlezen en testen van bestelde sensoren
+* PCB plantensensoren gemaakt
+
+19 maart 2024:
+* PCB plantensensoren aangepast en afgewerkt
+* Grafana geimplementeerd in home assistant
+* Automatisaties toegevoegd
+* PCB water begonnen
+* Frame verder gemaakt
 
