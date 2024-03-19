@@ -16,5 +16,5 @@ Om de planten goed te voorzien van
 
 <iframe src="schematic.pdf" width="100%" height="600px"></iframe>
 ![](PCB_plantensensor.png)
-![](soil-moisture.yaml)
+![Download](soil-moisture.yaml)
 
