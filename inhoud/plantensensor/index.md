@@ -11,4 +11,5 @@ De grond-vochtigheidsensor kan gebruikt worden om de meten hoe vochtig de grond 
 # PCB-design
 
 ![](PCB_plantensensor.png)
-![](schematic.pdf)
+[Download PDF](schematic.pdf)
+<iframe src="schematic.pdf" width="100%" height="600px"></iframe>
