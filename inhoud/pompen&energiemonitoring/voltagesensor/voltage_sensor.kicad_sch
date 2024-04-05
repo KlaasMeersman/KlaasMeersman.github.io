@@ -1607,7 +1607,7 @@
     )
     (pin "1" (uuid 7bba6c39-08fa-4684-9a11-416f5f056c15))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR015") (unit 1)
         )
@@ -1635,7 +1635,7 @@
     (pin "4" (uuid 2b4bd559-cc3c-4141-aa81-d64b9a46c487))
     (pin "3" (uuid 7310d2a4-c70c-40c3-9425-55ba3b8cf1d1))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J6") (unit 1)
         )
@@ -1661,7 +1661,7 @@
     (pin "2" (uuid 98ec3fa8-6767-4e14-8a7b-5adae7e14386))
     (pin "1" (uuid 4cfb4c7c-afc8-43c3-ba3e-f692392682b8))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C1") (unit 1)
         )
@@ -1686,7 +1686,7 @@
     )
     (pin "1" (uuid ef1f28b3-4ad7-486c-bb8c-4107702a0f4c))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR026") (unit 1)
         )
@@ -1711,7 +1711,7 @@
     )
     (pin "1" (uuid 2d5ab096-b6fe-4846-9893-77467f593bd9))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR024") (unit 1)
         )
@@ -1774,7 +1774,7 @@
     (pin "8" (uuid 0c3dceba-7c95-4b3d-b590-0eb581444beb))
     (pin "9" (uuid 965308c8-e014-459a-b9db-b8493a601c62))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -1799,7 +1799,7 @@
     )
     (pin "1" (uuid 73f207c3-1d96-4aa1-ba76-449514859ee2))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR06") (unit 1)
         )
@@ -1824,7 +1824,7 @@
     )
     (pin "1" (uuid 08f1ca0b-dbca-4812-a8d8-d3148322d014))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR010") (unit 1)
         )
@@ -1850,7 +1850,7 @@
     (pin "1" (uuid 3b884917-4af8-4e1f-9643-09acd9776746))
     (pin "2" (uuid ee451d6e-cd55-4874-8bbb-89414642c1ce))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R5") (unit 1)
         )
@@ -1878,7 +1878,7 @@
     (pin "4" (uuid 6d7673e0-7872-4105-bb77-0da09cfdac7f))
     (pin "3" (uuid 311cc514-15ea-40e8-a3b9-e9ab2e981287))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -1903,7 +1903,7 @@
     )
     (pin "1" (uuid 2c6f4779-9765-4819-a96d-f392bf083903))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR023") (unit 1)
         )
@@ -1928,7 +1928,7 @@
     )
     (pin "1" (uuid c98aa375-d57f-4c08-856f-670ad802e67c))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR017") (unit 1)
         )
@@ -1953,7 +1953,7 @@
     )
     (pin "1" (uuid 278082c2-0348-48fe-92ee-fef15a7fa391))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR021") (unit 1)
         )
@@ -1978,7 +1978,7 @@
     )
     (pin "1" (uuid 1240896a-0d5c-4c9a-bdd1-8e4c678a0b11))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2003,7 +2003,7 @@
     )
     (pin "1" (uuid f96083e7-209a-4a71-9d05-5818ef5770a2))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR013") (unit 1)
         )
@@ -2028,7 +2028,7 @@
     )
     (pin "1" (uuid 52b9f687-3af4-4796-9785-591082a93191))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR02") (unit 1)
         )
@@ -2053,7 +2053,7 @@
     )
     (pin "1" (uuid b7b22f6f-5272-40ff-b943-d079442262ff))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR08") (unit 1)
         )
@@ -2078,7 +2078,7 @@
     )
     (pin "1" (uuid 41ce0a63-0cfb-43d9-b8a0-40577ee3eeac))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR09") (unit 1)
         )
@@ -2104,7 +2104,7 @@
     (pin "1" (uuid 2523fb7d-bdf6-476e-87d5-a6e44e66f2d6))
     (pin "2" (uuid 442046a6-c938-43b3-b010-c9f508c58c80))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R1") (unit 1)
         )
@@ -2129,7 +2129,7 @@
     )
     (pin "1" (uuid a09fe795-eaa7-43f4-9051-b623fe8c866d))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR05") (unit 1)
         )
@@ -2155,7 +2155,7 @@
     (pin "1" (uuid 7ff8e8a9-59b8-42cf-8c20-072f0c02bc98))
     (pin "2" (uuid cc0c675a-2437-44fe-93bd-ba2326745cfd))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D1") (unit 1)
         )
@@ -2180,7 +2180,7 @@
     )
     (pin "1" (uuid 5dc368ef-0a60-49fa-90f0-58cb02a919aa))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR020") (unit 1)
         )
@@ -2206,7 +2206,7 @@
     (pin "1" (uuid f37521c8-e13a-4cfd-bbe5-08e30d0a1896))
     (pin "2" (uuid 555dd4b5-5b6e-497e-b9bf-c7018c9aa5ea))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R4") (unit 1)
         )
@@ -2233,7 +2233,7 @@
     (pin "3" (uuid 36f3c83e-8021-40f1-8dca-b63c22f6e272))
     (pin "1" (uuid 3f4178c8-68f5-43b2-9aa9-f8ad8f499212))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 1)
         )
@@ -2258,7 +2258,7 @@
     )
     (pin "1" (uuid d56f0cb5-fece-41f1-8d8f-d66df5dc7fd4))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR029") (unit 1)
         )
@@ -2283,7 +2283,7 @@
     )
     (pin "1" (uuid d1673458-a4a9-4eec-bdfc-559c34ca1454))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR011") (unit 1)
         )
@@ -2309,7 +2309,7 @@
     (pin "1" (uuid 676c7960-8613-4504-a0c8-d9bfd08d6b35))
     (pin "2" (uuid d50defa7-c393-4bea-82a4-1588169f1ebc))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW2") (unit 1)
         )
@@ -2334,7 +2334,7 @@
     )
     (pin "1" (uuid 88603942-4038-4260-a22a-569e948dfefe))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR022") (unit 1)
         )
@@ -2359,7 +2359,7 @@
     )
     (pin "1" (uuid e950a628-abfe-4cce-b247-fd618f53ac30))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -2384,7 +2384,7 @@
     )
     (pin "1" (uuid 1bff7b5f-5183-473c-880e-c7f249046b91))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR03") (unit 1)
         )
@@ -2409,7 +2409,7 @@
     )
     (pin "1" (uuid e267bd62-ca3f-419d-866c-41f380c008eb))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR016") (unit 1)
         )
@@ -2436,7 +2436,7 @@
     (pin "1" (uuid 5cb138df-1169-41e0-8dd4-fffe7065c031))
     (pin "2" (uuid 5901e9c1-1687-4c09-8edd-d09fa8184b6b))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J3") (unit 1)
         )
@@ -2461,7 +2461,7 @@
     )
     (pin "1" (uuid fd23ca63-7e18-4c83-b6ac-d0399db2f161))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -2486,7 +2486,7 @@
     )
     (pin "1" (uuid 640a6b87-17f9-433d-b160-47694a9e3b2c))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR025") (unit 1)
         )
@@ -2511,7 +2511,7 @@
     )
     (pin "1" (uuid cb8a8e45-1322-4a44-868f-5d5b6096ec05))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR07") (unit 1)
         )
@@ -2536,7 +2536,7 @@
     )
     (pin "1" (uuid 427310fd-2f9d-44a1-a137-52a9d6847016))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR028") (unit 1)
         )
@@ -2562,7 +2562,7 @@
     (pin "1" (uuid ca85c2a8-6931-4d58-a394-f56c4478752a))
     (pin "2" (uuid 02a690e7-d77c-4402-988c-1e4d623e9648))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R3") (unit 1)
         )
@@ -2588,7 +2588,7 @@
     (pin "1" (uuid 73ec2159-2b7a-4b93-a561-864d62bfc2d8))
     (pin "2" (uuid 9394e723-8a8f-4135-b0a5-c4c3781503b0))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -2614,7 +2614,7 @@
     (pin "1" (uuid 2407f05f-24e1-451f-a6f9-d3643055cb8f))
     (pin "2" (uuid 8d14cf49-1a74-4d9a-b3ab-163200a93530))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J5") (unit 1)
         )
@@ -2639,7 +2639,7 @@
     )
     (pin "1" (uuid 62e4b3a8-9bc1-4dbe-9abd-046267deb146))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR018") (unit 1)
         )
@@ -2664,7 +2664,7 @@
     )
     (pin "1" (uuid 0748cc93-96a0-4848-8daa-9aa47dce0699))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR027") (unit 1)
         )
@@ -2690,7 +2690,7 @@
     (pin "1" (uuid 2ab16679-030c-4500-9313-4ba67d431f36))
     (pin "2" (uuid 31777d83-d4ac-4bbc-91f5-f3b29a1b2f46))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D2") (unit 1)
         )
@@ -2715,7 +2715,7 @@
     )
     (pin "1" (uuid 56733940-f410-4029-ac51-f05ce5e603c9))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR01") (unit 1)
         )
@@ -2741,7 +2741,7 @@
     (pin "2" (uuid 9a789383-8c73-4140-b8a7-49e64bf0f3f5))
     (pin "1" (uuid 0ff71534-c02d-46b8-9761-ab90406997c8))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R2") (unit 1)
         )
@@ -2767,7 +2767,7 @@
     (pin "1" (uuid 067f156e-d8c3-42da-b1fa-8b1e39934d2d))
     (pin "2" (uuid edf3b9b1-0705-4336-98e1-a00e0437c04e))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW1") (unit 1)
         )
@@ -2793,7 +2793,7 @@
     (pin "1" (uuid 9d072175-6cd4-46e7-8845-1132e5fc1b17))
     (pin "2" (uuid 92d0064e-fef9-4224-82bd-5e51932727b4))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R6") (unit 1)
         )
@@ -2819,7 +2819,7 @@
     (pin "1" (uuid 993f45ec-86b6-432d-9d02-d929a2f04e2c))
     (pin "2" (uuid 0766a357-819b-4189-ab82-07194ed45ab1))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C2") (unit 1)
         )
@@ -2844,7 +2844,7 @@
     )
     (pin "1" (uuid ca9a6ec2-ce57-46d5-b19b-26610f3a894a))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR014") (unit 1)
         )
@@ -2871,7 +2871,7 @@
     (pin "1" (uuid cb1fafd8-f688-400b-98e1-a10f29e8a180))
     (pin "2" (uuid 378dcf39-092a-4915-bf77-4c2d6bb62d29))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J4") (unit 1)
         )
@@ -2899,7 +2899,7 @@
     (pin "4" (uuid fff39c87-e19a-46e2-919b-e668cedb9739))
     (pin "3" (uuid 783a8b63-7137-4cb3-bdac-7965370123cd))
     (instances
-      (project "soil_moister_air"
+      (project "voltage_sensor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
