@@ -26,19 +26,20 @@ Dit door de sensor vooraf vastgelegde standaard zoutoplossingen met verschillend
 | Ca^2+^     | Ca(OH)~2~          |     100    |     250      |     400    | 
 | K^+^       |                    |     100    |     250      |     400    |
 
-Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout.
+Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
 Men wilt voor NO~3~^-^, Ca^2+^ en K^+^ respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
-Gewenste Massa Zout =  (Gewenste Ion Concentratie) * (Totaal Gewicht Zout / Gewicht Ion).
+Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout.
+Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
 
 
 
 (Bekijk of percentage slechter is dan molaire omrekening)
 
-| Ion     |Zout voor calibratie| Gewenste Massa Zout(g/l)| Gewicht Ion/Totaal gewicht zout | Gewenste Ion Concentratie stockoplossing (g/l) |
-|:-------:|:------------------:|:-----------------------:|:-----------------------:|:----------------------------------------------:|
-| NO~3~^-^| NaNO~3~            |     21,93               |     72,95%              |  16                                            | 
-| Ca^2+^  | Ca(OH)~2~          |                         |         |    |
-| K^+^    |                    |                         |           |    |
+| Ion     |Calibratiezout| Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
+|:-------:|:------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
+| NO~3~^-^| NaNO~3~      |     21,93                      |     72,95%     |  16                                            | 
+| Ca^2+^  | Ca(OH)~2~    |                                |                |    |
+| K^+^    |              |                                |                |    |
 
 Indien een lager volume stockoplossing gewenste is, hoort men de toe te voegen massa's overigens ook aan te passen.
 Bv. Slechts 500ml stockoplossing NO~3~^-^ vereist een toevoeging van slechts 10,98g NaNO~3~ aan 500ml H~2~O
