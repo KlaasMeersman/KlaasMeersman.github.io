@@ -27,18 +27,18 @@ Dit door de sensor vooraf vastgelegde standaard zoutoplossingen met verschillend
 | K<sup>+</sup>             |                    |     100    |     250      |     400    |
 
 Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
-Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
-Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout:
-</br>
+Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, 2g/l en 2g/l bekomen voor de ion concentraties in de stockoplossing.
+Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout:  
+  
 Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
 
 (Bekijk of percentage slechter is dan molaire omrekening)
 
-| Ion     |Calibratiezout| Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
-|:-------:|:------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
-| NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>      |     21,93                      |     72,95%     |  16                                            | 
-| Ca<sup>2+</sup>  | Ca(OH)<sub>2</sub>   |                                |                |    |
-| K<sup>+</sup>    |              |                                |                |    |
+| Ion                       |Calibratiezout    | Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
+|:-------------------------:|:----------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
+| NO<sub>3</sub><sup>-</sup>|NaNO<sub>3</sub>  |     21,93                      |     72,95%     |  16                                            | 
+| Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|     3,6975                     |     54,09%     |                 2                              |
+| K<sup>+</sup>             |                  |                                |                |                 2                              |
 
 Indien een lager volume stockoplossing gewenst is, hoort men de toe te voegen massa's overigens ook aan te passen.
 Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoeging van slechts 10,98g NaNO<sub>3</sub> aan 500ml H<sub>2</sub>O
