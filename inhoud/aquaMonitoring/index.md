@@ -28,7 +28,8 @@ Dit door de sensor vooraf vastgelegde standaard zoutoplossingen met verschillend
 
 Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
 Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
-Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout.
+Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout:
+</br>
 Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
 
 (Bekijk of percentage slechter is dan molaire omrekening)
@@ -39,15 +40,14 @@ Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion) 
 | Ca<sup>2+</sup>  | Ca(OH)<sub>2</sub>   |                                |                |    |
 | K<sup>+</sup>    |              |                                |                |    |
 
-Indien een lager volume stockoplossing gewenste is, hoort men de toe te voegen massa's overigens ook aan te passen.
+Indien een lager volume stockoplossing gewenst is, hoort men de toe te voegen massa's overigens ook aan te passen.
 Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoeging van slechts 10,98g NaNO<sub>3</sub> aan 500ml H<sub>2</sub>O
 
 
 
 Hieruit vinden we volgende grafieken:
 
-*Fix(grafieken)
-
+*Fix
 
 
 
