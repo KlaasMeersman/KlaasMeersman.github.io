@@ -7,31 +7,29 @@ De aqua monitoring is opgebouwd uit 2 grote delen: het uitlezen van de concentra
 
 # Ion-sensors
 
-De ion-concentratie van de voedingsstoffen (Ca~2~^+^, K^+^ en NO~3~^-^) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde reference sensor. 
+De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K^+^ en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde reference sensor. 
 (Foto)
 Deze sensoren horen alvorens gebruik gecalibreerd te worden. De volgende ionconcentraties zijn gewenst:
 
 | Ion        |Concentratie (mg/l)| 
 |:----------:|:----------:       |
-| NO~3~^-^   | 968               |
-| Ca^2+^     | 195               |
-| K^+^       | 254               |
+| NO<sub>3</sub><sup>-</sup>   | 968               |
+| Ca<sup>2+</sup>     | 195               |
+| K<sup>+</sup>       | 254               |
 
 Deze sensoren moeten met de hand gecalibreerd worden alvorens deze een meting kunnen uitvoeren.
 Dit door de sensor vooraf vastgelegde standaard zoutoplossingen met verschillende concentraties te laten uitlezen. 
     
 | Ion        |Zout voor calibratie| Laag (mg/l)| Midden (mg/l)| Hoog (mg/l)|
 |:----------:|:------------------:|:----------:|:------------:|:----------:|
-| NO~3~^-^   | NaNO~3~            |     800    |     1200     |     1600   |
-| Ca^2+^     | Ca(OH)~2~          |     100    |     250      |     400    | 
-| K^+^       |                    |     100    |     250      |     400    |
+| NO<sub>3~<sup>-^   | NaNO<sub>3~            |     800    |     1200     |     1600   |
+| Ca<sup>2+^     | Ca(OH)~2~          |     100    |     250      |     400    | 
+| K<sup>+^       |                    |     100    |     250      |     400    |
 
 Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
 Men wilt voor NO~3~^-^, Ca^2+^ en K^+^ respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
 Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout.
 Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
-
-
 
 (Bekijk of percentage slechter is dan molaire omrekening)
 
