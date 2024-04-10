@@ -7,27 +7,27 @@ De aqua monitoring is opgebouwd uit 2 grote delen: het uitlezen van de concentra
 
 # Ion-sensors
 
-De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K^+^ en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde reference sensor. 
+De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K<sup>+</sup> en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde reference sensor. 
 (Foto)
 Deze sensoren horen alvorens gebruik gecalibreerd te worden. De volgende ionconcentraties zijn gewenst:
 
-| Ion        |Concentratie (mg/l)| 
-|:----------:|:----------:       |
-| NO<sub>3</sub><sup>-</sup>   | 968               |
-| Ca<sup>2+</sup>     | 195               |
-| K<sup>+</sup>       | 254               |
+| Ion                        |Concentratie (mg/l)| 
+|:--------------------------:|:----------:       |
+| NO<sub>3</sub><sup>-</sup> | 968               |
+| Ca<sup>2+</sup>            | 195               |
+| K<sup>+</sup>              | 254               |
 
 Deze sensoren moeten met de hand gecalibreerd worden alvorens deze een meting kunnen uitvoeren.
 Dit door de sensor vooraf vastgelegde standaard zoutoplossingen met verschillende concentraties te laten uitlezen. 
     
-| Ion        |Zout voor calibratie| Laag (mg/l)| Midden (mg/l)| Hoog (mg/l)|
-|:----------:|:------------------:|:----------:|:------------:|:----------:|
-| NO<sub>3~<sup>-^   | NaNO<sub>3~            |     800    |     1200     |     1600   |
-| Ca<sup>2+^     | Ca(OH)~2~          |     100    |     250      |     400    | 
-| K<sup>+^       |                    |     100    |     250      |     400    |
+| Ion                       |Zout voor calibratie| Laag (mg/l)| Midden (mg/l)| Hoog (mg/l)|
+|:-------------------------:|:------------------:|:----------:|:------------:|:----------:|
+| NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>   |     800    |     1200     |     1600   |
+| Ca<sup>2+</sup>           | Ca(OH)<sub>2</sub> |     100    |     250      |     400    | 
+| K<sup>+</sup>             |                    |     100    |     250      |     400    |
 
 Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
-Men wilt voor NO~3~^-^, Ca^2+^ en K^+^ respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
+Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, g/l en g/l bekomen voor de ion concentraties in de stockoplossing.
 Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout.
 Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
 
@@ -35,12 +35,12 @@ Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion) 
 
 | Ion     |Calibratiezout| Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
 |:-------:|:------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
-| NO~3~^-^| NaNO~3~      |     21,93                      |     72,95%     |  16                                            | 
-| Ca^2+^  | Ca(OH)~2~    |                                |                |    |
-| K^+^    |              |                                |                |    |
+| NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>      |     21,93                      |     72,95%     |  16                                            | 
+| Ca<sup>2+</sup>  | Ca(OH)<sub>2</sub>   |                                |                |    |
+| K<sup>+</sup>    |              |                                |                |    |
 
 Indien een lager volume stockoplossing gewenste is, hoort men de toe te voegen massa's overigens ook aan te passen.
-Bv. Slechts 500ml stockoplossing NO~3~^-^ vereist een toevoeging van slechts 10,98g NaNO~3~ aan 500ml H~2~O
+Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoeging van slechts 10,98g NaNO<sub>3</sub> aan 500ml H<sub>2</sub>O
 
 
 
