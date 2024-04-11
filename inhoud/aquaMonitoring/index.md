@@ -7,8 +7,9 @@ De aqua monitoring is opgebouwd uit 2 grote delen: het uitlezen van de concentra
 
 # Ion-sensors
 
-De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K<sup>+</sup> en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde reference sensor. 
-(Foto)
+De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K<sup>+</sup> en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde referentie sensor. Deze 'Ion Selective Electrodes' kunnen met behulp van een selectief membraam de concentratie van specifieke ionen meten en weergeven als potentiaalverschil (in mV).  
+
+(Foto)  
 Deze sensoren horen alvorens gebruik gecalibreerd te worden. De volgende ionconcentraties zijn gewenst:
 
 | Ion                        |Concentratie (mg/l)| 
@@ -30,7 +31,8 @@ Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een 
 Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, 2g/l en 2g/l bekomen voor de ion concentraties in de stockoplossing.
 Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa zout:  
   
-Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  (MM=Molaire Massa)
+Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  
+(MM=Molaire Massa)
 
 (Bekijk of percentage slechter is dan molaire omrekening)
 
