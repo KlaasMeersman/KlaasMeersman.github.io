@@ -3,7 +3,7 @@ title: LED en PCB
 ---
 
 
-**Yuta en Jualiang**
+# Yuta en Jualiang
 
 De volgende selectie van LEDs is gemaakt door Yuta en Juliang:
 
@@ -12,7 +12,7 @@ De volgende selectie van LEDs is gemaakt door Yuta en Juliang:
 * Red LEDs: 12  (L1SP-DRD0002800000)
 * FR LEDs: 12  (L1SP-FRD0002800000)
 
-[Datasheet] (https://otmm.lumileds.com/adaptivemedia/f0665283471a2a639ce8c3006456265ad074bde9)
+[Datasheet](https://otmm.lumileds.com/adaptivemedia/f0665283471a2a639ce8c3006456265ad074bde9)
 
 ![](yutajualian.png)
 
@@ -26,7 +26,7 @@ De LED-PCB wordt opgesplitst in twee PCBs om te voldoen aan de afmetingen.
 
 ![](YutaAndJialiangPCB.png)
 
-**Marta Pozzi en Hayato Nakanishi**
+# Marta Pozzi en Hayato Nakanishi
 
 Volgend document is opgesteld door Marta en Hayato om de keuze van hun LEDs toe te lichten:
 
