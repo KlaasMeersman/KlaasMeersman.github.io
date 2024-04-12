@@ -1,4 +1,9 @@
-__Yuta en Jualiang__
+---
+title: LED en PCB
+---
+
+
+_Yuta en Jualiang_
 
 De volgende selectie van LEDs is gemaakt door Yuta en Juliang.
 
@@ -22,7 +27,7 @@ De LED-PCB wordt opgesplits in twee PCBs om te voldoen aan de afmetingen.
 
 ![](YutaAndJialiangPCB.png)
 
-__Marta Pozzi en Hayato Nakanishi__
+_Marta Pozzi en Hayato Nakanishi_
 
 Volgend document is opgesteld door Marta en Hayato om de keuze van hun LEDs toe te lichten:
 
