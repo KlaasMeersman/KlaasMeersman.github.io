@@ -54,3 +54,18 @@ title: Logboek
 * PCB water begonnen
 * Frame verder gemaakt
 
+26 maart 2024:
+* voorbereiden presentatie
+* versnellen maakprocess/deadlines
+
+29 maart 2024:
+* deadlines gesteld
+
+1, 2, 3 april:
+* maken PCB voor LEDs(Marta Pozzi & Hayato Nakanishi)
+* maken PCB voor LEDs(Yuta & Jualiang)
+
+16 april:
+* scherm + raspberry pi
+* ionen voeding
+* ....
