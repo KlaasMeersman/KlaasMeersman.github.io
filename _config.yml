@@ -35,7 +35,7 @@ kramdown:
   syntax_highlighter: coderay
 
 header_pages:
-  - inhoud/LEDs/index.md
+  - inhoud/leds/index.md
   - inhoud/aansturingLEDs/index.md
   - inhoud/aquaMonitoring/index.md
   - inhoud/dashboard/index.md

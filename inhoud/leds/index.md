@@ -26,7 +26,7 @@ __Marta Pozzi en Hayato Nakanishi__
 
 Volgend document is opgesteld door Marta en Hayato om de keuze van hun LEDs toe te lichten:
 
-<iframe src="LED_selection_propsal.pdf" width="100%" height="600px"></iframe>
+<iframe src="LED_selection_propsal_document.pdf" width="100%" height="600px"></iframe>
 
 Volgende PCB werd ontworpen:
 ![](Type1afb.png)
