@@ -59,7 +59,7 @@ title: Logboek
 * versnellen maakprocess/deadlines
 
 29 maart 2024:
-* [deadlines](inhoud/deadlines/index.md)gesteld met de uit te voeren taken
+* [deadlines](../deadlines/index.md) gesteld met de uit te voeren taken
 
 1, 2, 3 april:
 * maken PCB voor LEDs(Marta Pozzi & Hayato Nakanishi)
