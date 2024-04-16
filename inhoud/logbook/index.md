@@ -64,8 +64,11 @@ title: Logboek
 1, 2, 3 april:
 * maken PCB voor LEDs(Marta Pozzi & Hayato Nakanishi)
 * maken PCB voor LEDs(Yuta & Jualiang)
+* PCB's bestellen
+* scherm uittesten + raspberry pi herconfiguren (ESPhome, homeassist en mosquitto in dockers steken)
 
 16 april:
-* scherm + raspberry pi
+* solderen en uittesten van PCB voor LEDs(Marta Pozzi & Hayato Nakanishi)
+* solderen en uittesten van PCB voor LEDs(Yuta & Jualiang)
 * ionen voeding
 * ....
