@@ -25,7 +25,7 @@ Dit door de sensor vastgelegde standaard zoutoplossingen met verschillende conce
 |:-------------------------:|:------------------:|:----------:|:------------:|:----------:|
 | NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>   |     800    |     1230,8   |     1600   |
 | Ca<sup>2+</sup>           | Ca(OH)<sub>2</sub> |     100    |     200      |     400    | 
-| K<sup>+</sup>             |                    |     100    |     200      |     400    |
+| K<sup>+</sup>             | KOH                |     100    |     200      |     400    |
 
 Om deze laag/midden/hoog concentraties te bekomen maken we voor elke sensor een aparte stockoplossing van zijn bijhorend zout van 1l.
 Men wilt voor NO<sub>3</sub><sup>-</sup>, Ca<sup>2+</sup> en K<sup>+</sup> respectievelijk 16g/l, 2g/l en 2g/l bekomen voor de ion concentraties in de stockoplossing.
