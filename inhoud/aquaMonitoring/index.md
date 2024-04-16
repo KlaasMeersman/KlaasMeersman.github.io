@@ -39,7 +39,7 @@ Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)
 |:-------------------------:|:----------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
 | NO<sub>3</sub><sup>-</sup>|NaNO<sub>3</sub>  |     21,93                      |     72,95%     |                16                              | 
 | Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|     3,6975                     |     54,09%     |                 2                              |
-| K<sup>+</sup>             |KOH               |     2,869                      |     69,69%     |                 2                              |
+| K<sup>+</sup>             |KOH               |     0,7394                     |     69,69%     |                 0,4                            |
 
 Indien een lager volume stockoplossing gewenst is, hoort men de toe te voegen massa's overigens ook aan te passen.
 Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoeging van slechts 10,98g NaNO<sub>3</sub> aan 500ml H<sub>2</sub>O
@@ -47,12 +47,12 @@ Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoegi
 Vervolgens maken we van de stockoplossingen voor elke sensor de drie verschillende concentraties m.b.h.v. het aanvullen met gedioniseerd water:  
 
 
-|                      |NO<sub>3</sub><sup>-</sup>|Ca<sup>2+</sup>,K<sup>+</sup>|
-|                      |:------------------------:|:---------------------------:|
-|Delen stockoplossing  |1 deel                    |1 deel                       |
-|Toevoeging voor Laag  |19 delen H<sub>2</sub>O   |19 delen H<sub>2</sub>O      |
-|Toevoeging voor Midden|12 delen H<sub>2</sub>O   |9 delen H<sub>2</sub>O       |
-|Toevoeging voor Hoog  |9 delen H<sub>2</sub>O    |4 delen H<sub>2</sub>O       |  
+|                      |NO<sub>3</sub><sup>-</sup>|Ca<sup>2+</sup>          |K<sup>+</sup>|
+|                      |:------------------------:|:-----------------------:|:-----------:|
+|Delen stockoplossing  |1 deel                    |1 deel                   |1 deel       |
+|Toevoeging voor Laag  |19 delen H<sub>2</sub>O   |3 delen H<sub>2</sub>O   |             |
+|Toevoeging voor Midden|12 delen H<sub>2</sub>O   |1 deel  H<sub>2</sub>O   |             |
+|Toevoeging voor Hoog  |9 delen H<sub>2</sub>O    |Niets                    |             |
   
 Als de 3 concentraties voor een sensor gemaakt zijn, vindt de 3-punt calibratie plaats.
 
