@@ -34,7 +34,6 @@ Men kan volgende formule gebruiken voor het berekenen van de toe te voegen massa
 Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)  
 (MM=Molaire Massa)
 
-(Bekijk of percentage slechter is dan molaire omrekening)
 
 | Ion                       |Calibratiezout    | Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
 |:-------------------------:|:----------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
