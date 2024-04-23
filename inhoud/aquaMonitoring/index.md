@@ -38,7 +38,7 @@ Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)
 | Ion                       |Calibratiezout    | Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
 |:-------------------------:|:----------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
 | NO<sub>3</sub><sup>-</sup>|NaNO<sub>3</sub>  |     21,93                      |     72,95%     |                16                              | 
-| Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|                          |     54,09%     |                2                               |
+| Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|     1,0818                     |     54,09%     |                2                               |
 | K<sup>+</sup>             |KOH               |     2,8699                     |     69,69%     |                2                               |
 
 Indien een lager volume stockoplossing gewenst is, hoort men de toe te voegen massa's overigens ook aan te passen.
