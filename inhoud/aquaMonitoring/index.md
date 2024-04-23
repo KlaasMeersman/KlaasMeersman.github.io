@@ -23,7 +23,7 @@ Dit door de sensor vastgelegde standaard zoutoplossingen met verschillende conce
     
 | Ion                       |Zout voor calibratie| Laag (mg/l)| Midden (mg/l)| Hoog (mg/l)|
 |:-------------------------:|:------------------:|:----------:|:------------:|:----------:|
-| NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>   |     800    |     1230,8   |     1600   |
+| NO<sub>3</sub><sup>-</sup>| NaNO<sub>3</sub>   |     800    |     1200     |     1600   |
 | Ca<sup>2+</sup>           | Ca(OH)<sub>2</sub> |     100    |     200      |     400    | 
 | K<sup>+</sup>             | KOH                |     100    |     200      |     400    |
 
@@ -38,7 +38,7 @@ Gewenste Concentratie Zout =  (Gewenste Concentratie Ion) * ( MM Zout / MM Ion)
 | Ion                       |Calibratiezout    | Gewenste Concentratie Zout(g/l)| MM Ion/MM Zout | Gewenste Ion Concentratie stockoplossing (g/l) |
 |:-------------------------:|:----------------:|:------------------------------:|:--------------:|:----------------------------------------------:|
 | NO<sub>3</sub><sup>-</sup>|NaNO<sub>3</sub>  |     21,93                      |     72,95%     |                16                              | 
-| Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|     0,7394                     |     54,09%     |                0,4                             |
+| Ca<sup>2+</sup>           |Ca(OH)<sub>2</sub>|                          |     54,09%     |                2                               |
 | K<sup>+</sup>             |KOH               |     2,8699                     |     69,69%     |                2                               |
 
 Indien een lager volume stockoplossing gewenst is, hoort men de toe te voegen massa's overigens ook aan te passen.
@@ -47,20 +47,20 @@ Bv. Slechts 500ml stockoplossing NO<sub>3</sub><sup>-</sup> vereist een toevoegi
 Vervolgens maken we van de stockoplossingen voor elke sensor de drie verschillende concentraties m.b.h.v. het aanvullen met gedioniseerd water:  
 
 
-|                      |NO<sub>3</sub><sup>-</sup>|Ca<sup>2+</sup>          |K<sup>+</sup>|
-|                      |:------------------------:|:-----------------------:|:-----------:|
-|Delen stockoplossing  |1 deel                    |1 deel                   |1 deel       |
-|Toevoeging voor Laag  |19 delen H<sub>2</sub>O   |3 delen H<sub>2</sub>O   |             |
-|Toevoeging voor Midden|12 delen H<sub>2</sub>O   |1 deel  H<sub>2</sub>O   |             |
-|Toevoeging voor Hoog  |9 delen H<sub>2</sub>O    |Niets                    |             |
+|                      |NO<sub>3</sub><sup>-</sup>|Ca<sup>2+</sup>          |K<sup>+</sup>              |
+|                      |:------------------------:|:-----------------------:|:-------------------------:|
+|Delen stockoplossing  |1 deel                    |1 deel                   |1 deel                     |
+|Toevoeging voor Hoog  |9 delen H<sub>2</sub>O    |4 delen H<sub>2</sub>O   |4 delen H<sub>2</sub>O     |
+|Toevoeging voor Midden|12 delen H<sub>2</sub>O   |9 delen H<sub>2</sub>O   |9 delen H<sub>2</sub>O     |
+|Toevoeging voor Laag  |19 delen H<sub>2</sub>O   |19 delen H<sub>2</sub>O  |19 delen H<sub>2</sub>O    |
   
-Als de 3 concentraties voor een sensor gemaakt zijn, vindt de 3-punt calibratie plaats.
+Als de 3 concentraties voor een sensor gemaakt zijn, vindt de 3-punt calibratie plaats. Men steekt de reference ISE samen met de stof specifieke ISE achtereenvolgens in elk van de 3 stof specifieke concentraten en meet de spanning uit.
 
 Hieruit vinden we volgende grafieken:
 
-*Fix
+*Fix 
 
-Deze data kan dan gebruikt worden om de sensoren de voedingstank te laten uitlezen. 
+Deze data kan dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden.
 
 
 # Aanvulling nutrienten
