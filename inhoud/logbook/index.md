@@ -66,9 +66,18 @@ title: Logboek
 * maken PCB voor LEDs(Yuta & Jualiang)
 * PCB's bestellen
 * scherm uittesten + raspberry pi herconfiguren (ESPhome, homeassist en mosquitto in dockers steken)
+* pcb voor grond, co2 en temperatuursensoren solderen en testen
+* opzoekwerk naar ideale waarden paprika en basilicum (temperatuur, luchtvochtigheid, co2, grondvochtigheid)
 
 16 april:
 * solderen en uittesten van PCB voor LEDs(Marta Pozzi & Hayato Nakanishi)
 * solderen en uittesten van PCB voor LEDs(Yuta & Jualiang)
+* solderen en uittesten relais bord voor ventilatorensturing (werkt nog niet)
+* op oude home assistant MQTT uitgetest met ESP
 * ionen voeding
 * ....
+
+23 april:
+* testen relais bord voor ventilatorensturing
+* 
+
