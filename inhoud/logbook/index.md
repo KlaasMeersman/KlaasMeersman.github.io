@@ -79,5 +79,5 @@ title: Logboek
 
 23 april:
 * testen relais bord voor ventilatorensturing
-* 
+* hardware beginnen installeren in de kast
 
