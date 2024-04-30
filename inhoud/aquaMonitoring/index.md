@@ -68,4 +68,14 @@ Deze data kan dan gebruikt worden om met de sensoren de voedingstank eenmalig ui
 Na het uitlezen van de 3 concentraties kan de tank aangevuld worden met nutrient-rijk concentraat m.b.h.v het peristaltisch pomp netwerk. 
 
 Het pompen van de concentraten zal dusdanig afgesteld worden opdat het systeem een schatting kan maken van de benodigde hoeveelheid concentraten op de basis van de meting. 
+Peristaltische pompen staan gekend voor het leveren van een constant debiet. Dit is vervolgens experimenteel nagegaan bij een aantal pompjes: 
+
+|               |Pomp 1         | Pomp 2        |             |
+|               |:-------------:|:-------------:|:-----------:|
+|Tijd tot 50ml  |24,14 seconden |21,84 seconden |             |
+|Tijd tot 100ml |50,42 seconden |44,44 seconden |             |
+|Debiet         |120ml/min      |135ml/min      |             |
+
+Het debiet is vrij consistent bij beide pompen alhoewel het debiet lager ligt dan beschreven in de specificaties (200ml/min).
+
 Na het aanvullen van de watertank zal een nieuwe meting plaatsvinden om na te gaan of er nergens een overshoot heeft plaatsgevonden waardoor de tank aangelengd zou worden met water.
