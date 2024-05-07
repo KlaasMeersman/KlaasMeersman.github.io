@@ -81,3 +81,16 @@ title: Logboek
 * testen relais bord voor ventilatorensturing
 * hardware beginnen installeren in de kast
 
+30 april:
+* 2 extra bordjes gemaakt voor grondsensor, co2 sensor en luchtvochtigheidssensor
+* bordjes programmeren
+* pcb's geïnstalleerd in de kast
+* 
+
+7 mei:
+* kabelmanagement in de kast
+* grafana + influxDB geïnstalleerd op Pi en setup ervan
+* eerste dashboard grafana gemaakt
+* 
+
+
