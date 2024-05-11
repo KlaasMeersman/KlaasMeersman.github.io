@@ -12,7 +12,11 @@ The blue LEDs are powered by one 1050mA current source. It powers the blue LEDs 
 
 
 
-red: 72 => forward current = 350mA (30-1000mA), forward voltage typ= 2.09V 
+
+
+<div style="border: 1px solid #ccc; padding: 10px; background-color: #D2B48C;">
+    <span style="color: #654321; font-family: Courier;">
+ red: 72 => forward current = 350mA (30-1000mA), forward voltage typ= 2.09V 
     => 1400mA source: 18 serie, x4 (parallel) = 64leds/source * 1 source = 64 leds
 
 white: 24 => forward current = 700mmA (10-1800mA), forward voltage typ= 2.8V
@@ -20,3 +24,5 @@ white: 24 => forward current = 700mmA (10-1800mA), forward voltage typ= 2.8V
 
 blue: 24 => forward current = 175mA (10-250mA), forward voltage typ= 3V
     => 1050mA source: 4 serie, x6 (parallel) = 24leds/source * 1 source = 24 leds
+    <span>
+</div>
