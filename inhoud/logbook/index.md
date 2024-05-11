@@ -80,17 +80,29 @@ title: Logboek
 23 april:
 * testen relais bord voor ventilatorensturing
 * hardware beginnen installeren in de kast
+* LED drivers selecteren en bestellen
 
 30 april:
 * 2 extra bordjes gemaakt voor grondsensor, co2 sensor en luchtvochtigheidssensor
 * bordjes programmeren
 * pcb's geïnstalleerd in de kast
-* 
+* installatie LED-arrays en LED-drivers
 
 7 mei:
 * kabelmanagement in de kast
 * grafana + influxDB geïnstalleerd op Pi en setup ervan
 * eerste dashboard grafana gemaakt
-* 
+* solderen LED-array PCB Muneeb
+* solderen LED-array controller bordje
+
+8 mei:
+* solderen bordjes Muneeb + installatie
+* programmeren LED-array controller bordje
+
+10 mei:
+* installatie LED-array controller bordje in kast
+* debugging LED-array controller bordje
+
+
 
 
