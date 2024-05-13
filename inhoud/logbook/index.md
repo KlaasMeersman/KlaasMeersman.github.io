@@ -76,32 +76,42 @@ title: Logboek
 * op oude home assistant MQTT uitgetest met ESP
 * ionen voeding
 * ....
+* studie uitvoeren voor ontwikkeling van PCB vermogenslogger
 
 23 april:
 * testen relais bord voor ventilatorensturing
 * hardware beginnen installeren in de kast
 * LED drivers selecteren en bestellen
+* Ontwikkeling van PCB vermogenslogger en schakelaar
+* Bestelling van compontenten voor vermogenslogger
 
 30 april:
 * 2 extra bordjes gemaakt voor grondsensor, co2 sensor en luchtvochtigheidssensor
 * bordjes programmeren
 * pcb's geïnstalleerd in de kast
-* installatie LED-arrays en LED-drivers
+* installatie LED-arrays en LED-drivers (zorgen voor een volledige cablatie)
+* kast voorzien van nodige flexibiliteit qua lichtverdeling
 
 7 mei:
 * kabelmanagement in de kast
 * grafana + influxDB geïnstalleerd op Pi en setup ervan
 * eerste dashboard grafana gemaakt
 * solderen LED-array PCB Muneeb
-* solderen LED-array controller bordje
+* solderen van vermogenslogger PCB + eerste programmatie om de verschillende onderdelen te testen
 
 8 mei:
 * solderen bordjes Muneeb + installatie
-* programmeren LED-array controller bordje
+* programmatie van een eerste implementatie van de vermogenslogger PCB
 
 10 mei:
-* installatie LED-array controller bordje in kast
-* debugging LED-array controller bordje
+* volledige implementatie van de vermogenslogger PCB (correcte cablatie met de de led-drivers)
+* het uittesten van correct af/uit schakeling + correcte stroommeting
+
+14 mei:
+
+16 mei:
+* !presentatie!
+
 
 
 
