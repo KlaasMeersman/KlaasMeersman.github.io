@@ -65,7 +65,7 @@ Hieruit vinden we volgende tabellen en grafieken:
 | 1200                           | 7,09                              | 119,8  | 23,5                |
 | 1600                           | 7,38                              | 112,6  | 23                  |
 
-*Fix grafiek NO3
+![Alt text](images/Nitrate Graph.png)
 
 | mg/l Ca<sub>2</sub><sup>+</sup>|LN(mg/l Ca<sub>2</sub><sup>+</sup>)| mV     | Temperatuur (in °C) |
 |:------------------------------:|:---------------------------------:|:------:|:-------------------:|
@@ -74,7 +74,7 @@ Hieruit vinden we volgende tabellen en grafieken:
 | 400                            | 5,99                              | 19,2   | 26,2                |
 | 2000                           | 7,60                              | 38,1   | 25,2                |
 
-*Fix grafiek Ca
+![Alt text](images/Calcium Graph.png)
 
 | mg/l K<sup>+</sup> | LN(mg/l K<sup>+</sup>)| mV     | Temperatuur (in °C) |
 |:------------------:|:--------------------:|:------:|:-------------------:|
@@ -82,7 +82,7 @@ Hieruit vinden we volgende tabellen en grafieken:
 | 200                | 5,30                 | 107,7  | 26,6                |
 | 400                | 5,99                 | 126,6  | 25,4                |
 
-*Fix grafiek K+
+![Alt text](images/Potassium Graph.png)
 
 
 Deze data kan dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden.
