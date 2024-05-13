@@ -113,4 +113,13 @@ Peristaltische pompen staan gekend voor het leveren van een constant debiet. Dit
 
 Het debiet is vrij consistent bij beide pompen alhoewel het debiet lager ligt dan beschreven in de specificaties (200ml/min).
 
+Er zijn 3 pompen voorzien om water, voedingsoplossing A en B in de watertank te pompen en 6 pompen die water uit de watertank elk naar een plantenbak pompt.
+
 Na het aanvullen van de watertank zal een nieuwe meting plaatsvinden om na te gaan of er nergens een overshoot heeft plaatsgevonden waardoor de tank aangelengd zou worden met water.
+
+(Uitleg Code)
+
+# Controle niveau watertank
+
+Om het volume water in de tank binnen grenswaarden te houden maken we gebruik van een sonarmodule.
+(Uitleg Code)
