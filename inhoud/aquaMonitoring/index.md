@@ -4,6 +4,11 @@ title: Water voorziening
 # Vertical Farm
 Voor de vertical Farm is gekozen voor een hydroponics druppelsysteem. Dit wil zeggen dat de planten niet in potgrond gekweekt worden maar in een substraat (hier Rockwool). Alle nodige voeding voor de planten wordt voorzien in het water dat naar de planten gepompt wordt. Bijgevolg is het belangrijk dat de voedingswaarden uit een watertank kan uitgelezen worden om de nutrienten in het water dynamisch bij te vullen. Deze aqua monitoring is opgebouwd uit 2 grote delen: het uitlezen van de concentraties van de voedingsstoffen alsook het automatische aanvullen van deze voedingsstoffen.
 
+# Benodigde Voeding
+
+De voeding voor de planten, bestaande uit een reeks chemische zouten, wordt opgelost in water om een concentraat te bekomen. Er worden 2 concentraten met verschillende zouten opgesteld op basis van volgende tabel met aanbevolen waarden voor het groeien van paprika planten:
+
+![Aanbevolen Concentraties](../images/Cocktail.png)
 
 # Ion-sensors
 
@@ -65,7 +70,7 @@ Hieruit vinden we volgende tabellen en grafieken:
 | 1200                           | 7,09                              | 119,8  | 23,5                |
 | 1600                           | 7,38                              | 112,6  | 23                  |
 
-![Alt text](images/Nitrate Graph.png)
+![Nitrate Graph](images/Nitrate Graph.png)
 
 | mg/l Ca<sub>2</sub><sup>+</sup>|LN(mg/l Ca<sub>2</sub><sup>+</sup>)| mV     | Temperatuur (in °C) |
 |:------------------------------:|:---------------------------------:|:------:|:-------------------:|
