@@ -56,9 +56,34 @@ Vervolgens maken we van de stockoplossingen voor elke sensor de drie verschillen
   
 Als de 3 concentraties voor een sensor gemaakt zijn, vindt de 3-punt calibratie plaats. Men steekt de reference ISE samen met de stof specifieke ISE achtereenvolgens in elk van de 3 stof specifieke concentraten en meet de spanning uit.
 
-Hieruit vinden we volgende grafieken:
+Hieruit vinden we volgende tabellen en grafieken:
 
-*Fix 
+| mg/l NO<sub>3</sub><sup>-</sup>|LN(mg/l NO<sub>3</sub><sup>-</sup>)| mV     | Temperatuur (in °C) |
+|:------------------------------:|:---------------------------------:|:------:|:-------------------:|
+| 640                            | 6,46                              | 133,7  | 22,8                |
+| 800                            | 6,68                              | 129,5  | 22,4                |
+| 1200                           | 7,09                              | 119,8  | 23,5                |
+| 1600                           | 7,38                              | 112,6  | 23                  |
+
+*Fix grafiek NO3
+
+| mg/l Ca<sub>2</sub><sup>+</sup>|LN(mg/l Ca<sub>2</sub><sup>+</sup>)| mV     | Temperatuur (in °C) |
+|:------------------------------:|:---------------------------------:|:------:|:-------------------:|
+| 100                            | 4,61                              | -11,1  | 25,7                |
+| 200                            | 5,30                              | -11,9  | 25,9                |
+| 400                            | 5,99                              | 19,2   | 26,2                |
+| 2000                           | 7,60                              | 38,1   | 25,2                |
+
+*Fix grafiek Ca
+
+| mg/l K<sup>+</sup> | LN(mg/l K<sup>+</sup>)| mV     | Temperatuur (in °C) |
+|:------------------:|:--------------------:|:------:|:-------------------:|
+| 100                | 4,61                 | 99,4   | 25,6                |
+| 200                | 5,30                 | 107,7  | 26,6                |
+| 400                | 5,99                 | 126,6  | 25,4                |
+
+*Fix grafiek K+
+
 
 Deze data kan dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden.
 
