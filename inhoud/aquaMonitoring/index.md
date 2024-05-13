@@ -94,8 +94,9 @@ Hieruit vinden we volgende tabellen en grafieken:
 
 ![Potassium Graph](../images/Potassium Graph.png)
 
+(Rechten toevoegen, uitleg vervolledigen rechten-> afregeling mogelijk + (code?))
 
-Deze data kan dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden.
+Deze data en bekomen rechten kunnen dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab, een Consort C681. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden. 
 
 
 # Aanvulling nutrienten
