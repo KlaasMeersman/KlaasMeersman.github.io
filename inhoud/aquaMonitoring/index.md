@@ -10,11 +10,16 @@ De voeding voor de planten, bestaande uit een reeks chemische zouten, wordt opge
 
 ![Aanbevolen Concentraties](../images/Cocktail.png)
 
+Er wordt een A en B oplossing gemaakt die elk 10 maal zo geconcentreerd is als de aanbevolen waarden. D.w.z. dat als we in 1 liter 10 maal de aanbevolen hoeveelheid doen we nog 9 liter water kunnen toevoegen alvorens we de ideale waarden behaald hebben.. Hierdoor kan deze in klein hoeveelheden in de voedingstank gepompt worden waar de voedingsstoffen elektronische nagemeten worden.
+
 # Ion-sensors
 
 De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K<sup>+</sup> en NO<sub>3</sub><sup>-</sup>) wordt uitgelezen a.d.h.v 3 sensors die elk gaan interageren met eenzelfde referentie sensor. Deze 'Ion Selective Electrodes' kunnen met behulp van een selectief membraam de concentratie van specifieke ionen meten en weergeven als potentiaalverschil (in mV).  
 
-(Foto)  
+![ISE Principle](../images/ISE Principle.png)
+
+(Foto calibratie setup in persoon)
+
 Deze sensoren horen alvorens gebruik gecalibreerd te worden. De volgende ionconcentraties zijn gewenst:
 
 | Ion                        |Concentratie (mg/l)| 
