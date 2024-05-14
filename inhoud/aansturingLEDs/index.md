@@ -2,10 +2,6 @@
 title: Aansturing LED's
 ---
 
-!!!!!!!!!!!!!!!!!!!!!!
-LINKS TOEVOEGEN: zoek naar zie
-!!!!!!!!!!!!!!!!!!!!!!
-
 # Rechter array: LED-array Yuta en Jualiang
 Deze LED-array bestaat uit twee identieke [PCB's](../leds/index.md)die parallel gevoed worden.
 
@@ -24,7 +20,7 @@ Het totale stroomverbruik is theoretisch 27,9W wanneer ze aan staan.
 ---
 
 # Midden array: LED-array M𝔲ήeeв
-Deze LED-array bestaat uit twee identieke PCB's die parallel gevoed worden.
+Deze LED-array bestaat uit twee identieke [PCB's] (../leds/index.md) die parallel gevoed worden.
 
 Deze LED-array bestaat uit twee identieke PCB's die parallel gevoed worden (zie in LED en PCB voor schema's van de PCB's) [2 stroombronnen van 1400mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1400?qs=O2yOKspD61Aj4Vv%2BmwlI7Q%3D%3D) en [1 stroombron van 1050mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D):
 
@@ -39,7 +35,7 @@ Het totale stroomverbruik is theoretisch 112,6W wanneer ze aan staan.
 
 # Linker array: LED-array Marta Pozzi en Hayato Nakanishi
 
-Deze LED-array bestaat uit 4 PCB's: x3 type1 en x1 type2 (zie in LED en PCB voor schema's van de PCB's). 
+Deze LED-array bestaat uit 4 [PCB's](../leds/index.md): x3 type1 en x1 type2.
 
 Deze LED-array wordt gevoed door [1 stroombron van 500mA](https://www.mouser.be/ProductDetail/RECOM-Power/RACT12-500?qs=gt1LBUVyoHnLAK5OjzGrww%3D%3D) en [1 stroombron van 1400mA](https://www.mouser.be/ProductDetail/MEAN-WELL/PCD-25-1400B?qs=%2F%2Bo%2FYLy8OFqnTDCUJjd14g%3D%3D).
 
