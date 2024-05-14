@@ -44,14 +44,14 @@ Er zijn 11 blauwe LED's, 17 rode en 55 far-red.
 ---
 
 # Aansturen van de LED-bronnen
-De LED-bronnen worden aangestuurd door een controller board ([files]())(POWERLOGGER, LEDs SWITCH board).
+De LED-bronnen worden aangestuurd door een controller board(POWERLOGGER, LEDs SWITCH board).
 
 <iframe src="PowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 
-De aansturing gebeurd door de stroom te onderbreken of door te laten met een relais. Deze is aangestuurd door een MOSFET die op zijn beurt is aangestuurd door een ESP32.
+De aansturing gebeurd door de stroom van de verschillende stroombronnen te onderbreken of door te laten met een relais. Deze is aangestuurd door een MOSFET die op zijn beurt is aangestuurd door een ESP32.
 
 
 [Files](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/pompen%26energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 
 
- Deze PCB wordt ook gebruikt voor de [vermogingsmetingen](../pompen&energiemonitoring/index.md).
+ Deze PCB wordt ook gebruikt voor de [vermogingsmetingen](../energiemonitoring/index.md).
