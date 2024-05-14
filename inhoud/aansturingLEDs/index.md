@@ -51,7 +51,7 @@ De LED-bronnen worden aangestuurd door een controller board(POWERLOGGER, LEDs SW
 De aansturing gebeurd door de stroom van de verschillende stroombronnen te onderbreken of door te laten met een relais. Deze is aangestuurd door een MOSFET die op zijn beurt is aangestuurd door een ESP32.
 
 
-[Files](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/pompen%26energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
+[Files](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 
 
  Deze PCB wordt ook gebruikt voor de [vermogingsmetingen](../energiemonitoring/index.md).
