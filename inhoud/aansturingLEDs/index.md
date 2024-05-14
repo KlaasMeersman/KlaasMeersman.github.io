@@ -4,9 +4,9 @@ title: Aansturing LED's
 
 # Left array: Marta Pozzi en Hayato Nakanishi
 
-This LED-array is powered by a [x1 500mA constant current source](https://www.mouser.be/ProductDetail/RECOM-Power/RACT12-500?qs=gt1LBUVyoHnLAK5OjzGrww%3D%3D) and [x1 1400mAconstant current source](https://www.mouser.be/ProductDetail/MEAN-WELL/PCD-25-1400B?qs=%2F%2Bo%2FYLy8OFqnTDCUJjd14g%3D%3D).
+This LED-array is powered by a [x1 500mA constant current source](https://www.mouser.be/ProductDetail/RECOM-Power/RACT12-500?qs=gt1LBUVyoHnLAK5OjzGrww%3D%3D) and [x1 1400 mAconstant current source](https://www.mouser.be/ProductDetail/MEAN-WELL/PCD-25-1400B?qs=%2F%2Bo%2FYLy8OFqnTDCUJjd14g%3D%3D).
 
-
+There are 11 blue LEDs, 17 red and 55 far-red.
 
 ---
 
