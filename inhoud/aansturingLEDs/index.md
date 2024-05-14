@@ -44,7 +44,9 @@ Er zijn 11 blauwe LED's, 17 rode en 55 far-red.
 ---
 
 # Aansturen van de LED-bronnen
-De LED-bronnen worden aangestuurd door een controller board ([files]())(POWERLOGGER, LEDs SWITCH board). 
+De LED-bronnen worden aangestuurd door een controller board ([files]())(POWERLOGGER, LEDs SWITCH board).
+
+<iframe src="PowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 
 De aansturing gebeurd door de stroom te onderbreken of door te laten met een relais. Deze is aangestuurd door een MOSFET die op zijn beurt is aangestuurd door een ESP32.
 
