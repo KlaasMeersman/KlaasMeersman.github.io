@@ -51,4 +51,4 @@ De LED-bronnen worden aangestuurd door een controller board (POWERLOGGER, LEDs S
 
 
 
- Deze PCB wordt ook gebruikt voor de vermogingsmetingen (zie energiemonitoring).
+ Deze PCB wordt ook gebruikt voor de [vermogingsmetingen] (../pompen&energiemonitoring/index.md).
