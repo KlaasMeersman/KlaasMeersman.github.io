@@ -21,6 +21,8 @@ The blue LEDs are powered by one 1050mA current source. It powers the blue LEDs 
 # Right array: LED-array Yuta en Jualiang
 This LED-array consists of two identical PCB's that are powered in parallel. (look in LED en PCB for schematics of the PCB's).
 
-This LED-array is powered by x1 1050mA current source](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D) and [x2 350mA current source](https://www.mouser.be/ProductDetail/MEAN-WELL/APC-12-350?qs=DNaZHaGatO0h%2FjPDgBoC1g%3D%3D).
+This LED-array is powered by [x1 1050mA current source](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D) and [x2 350mA current source](https://www.mouser.be/ProductDetail/MEAN-WELL/APC-12-350?qs=DNaZHaGatO0h%2FjPDgBoC1g%3D%3D).
 
 
+# Controlling the LED-sources
+The LED sources are controlled by a controller board (POWERLOGGER, LEDs SWITCH board).
