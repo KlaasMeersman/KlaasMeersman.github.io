@@ -124,3 +124,12 @@ Na het aanvullen van de watertank zal een nieuwe meting plaatsvinden om na te ga
 
 Om het volume water in de tank binnen grenswaarden te houden maken we gebruik van een sonarmodule.
 (Uitleg Code)
+
+
+# Mogelijke verbeteringen
+
+Voor de watervoorziening kunnen nog een aantal zaken geoptimaliseerd worden:
+
+-Huidig buizen netwerk (mix and match) vervangen door uniforme buizen en connectors
+-Op basis van meerdere groeicycli (met telkens licht gevarieerde parameters) van een plantensoort kan er op zoek gegaan worden naar de ideale voedingscompositie voor de plantensoort.
+-
