@@ -19,6 +19,7 @@ This LED-array is powered by [x2 1400mA current source](https://www.mouser.be/Pr
 - The 24 white LEDs are powered by one 1400mA current source. It powers the white LEDs on the two PCB's in parallel. Every white LED has a forward voltage of 2.8V and 700mA going through it. The power going through the white LEDs is thus (2.8V * 0.7 A * 24 =) 47W.
 - The 24 blue LEDs are powered by one 1050mA current source. It powers the blue LEDs on the two PCB's in parallel. Every blue LED has a forward voltage of 3V and 175mA going through it. The power going through the white LEDs is thus (3V * 0.175 A * 24 =) 12.6W.
 
+The total power draw is theoretically 112.6W when they are turned on.
 
 
 ---
@@ -36,23 +37,7 @@ This LED-array is powered by [x1 1050mA current source](https://www.mouser.be/Pr
 
 - The 12 far red LEDs are powered by one 350mA current source. It powers the red LEDs on the two PCB's in parallel. Every red LED has a forward voltage of 2.15V and 175mA going through it. The power going through the red LEDs is thus (2.15V * 0.175 * 12 =) 4.5W.
 
-
-__
-White: 72  => forward current = 150 (30-480mA), forward voltage typ=  2.85V        |
-    => 1050mA x (6/7) = 900mA serie (6/7 bron): 6 serie, x12 voor parallel                   |
-        = 72leds/(6/7) bron * (6/7)bronnen = 72leds                                                                 > => 1050/7 = 150mA door elke rail 
-                                                                                                                                                           |
-Blue: 12 => forward current = 150 (10-240mA), forward voltage typ= 3V                    |
-    => 1050mA/7 = 150mA (1/7 bron): 6 serie, x2 voor parallel                                          |
-        = 6leds/(1/7)bron * (1/7)bron = 12 leds                                                                           |
-                                                                                                                                                        --
-Red: 12 => forward current = 130 (10-250mA), forward voltage typ= 2.15V
-    => 350mA bron: 6 serie, x2 voor parallel = 12leds/bron * 1bron = 12leds
-
-Far red: 12 => forward current = 175 (10-300mA), forward voltage typ= 2.15V
-    => 350mA bron: 6 serie, x2 voor parallel = 12leds/bron * 1 bron = 12leds 
-
-
+The total power draw is theoretically 27.9W when they are turned on.
 ---
 
 # Controlling the LED-sources
