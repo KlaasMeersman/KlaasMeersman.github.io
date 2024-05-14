@@ -2,9 +2,15 @@
 title: Aansturing LED's
 ---
 
-# Middle array: LED-array M𝔲ήeeв
+# Left array: Marta Pozzi en Hayato Nakanishi
 
-This LED-array is powered by x2 1400mA current source and x1 1050mA source:
+This LED-array is powered by a [500mA constant current source](https://www.mouser.be/ProductDetail/RECOM-Power/RACT12-500?qs=gt1LBUVyoHnLAK5OjzGrww%3D%3D) and [1400mAconstant current source](https://www.mouser.be/ProductDetail/MEAN-WELL/PCD-25-1400B?qs=%2F%2Bo%2FYLy8OFqnTDCUJjd14g%3D%3D).
+
+
+# Middle array: LED-array M𝔲ήeeв
+This LED-array consists of two identical PCB's that are powered in parallel. (look in LED en PCB for layout of the PCB's)
+
+This LED-array is powered by [x2 1400mA current source](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1400?qs=O2yOKspD61Aj4Vv%2BmwlI7Q%3D%3D) and [x1 1050mA source](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D):
 
 The red LEDs are powered by one 1400mA current source. It powers the red LEDs on the two PCB's in parallel.
 The white LEDs are powered by one 1400mA current source. It powers the white LEDs on the two PCB's in parallel.
