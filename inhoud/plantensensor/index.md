@@ -1,5 +1,5 @@
 ---
-title: Planten sensoren
+title: Plantenmonitoring
 ---
 
 Hier kunnen jullie alles terug vinden ivm. de plantensensoren. Zoals schema's, PCB ontwerp, datasheets etc. 
