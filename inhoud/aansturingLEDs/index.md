@@ -3,7 +3,7 @@ title: Aansturing LED's
 ---
 
 # Rechter array: LED-array Yuta en Jualiang
-Deze LED-array bestaat uit twee identieke [PCB's](../leds/index.md)die parallel gevoed worden.
+Deze LED-array bestaat uit twee identieke [PCB's](../leds/index.md) die parallel gevoed worden.
 
 Deze LED-array wordt gevoed door [1 stroombron van 1050mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D) en [2 stroombronnen van 350mA](https://www.mouser.be/ProductDetail/MEAN-WELL/APC-12-350?qs=DNaZHaGatO0h%2FjPDgBoC1g%3D%3D).
 
@@ -20,7 +20,7 @@ Het totale stroomverbruik is theoretisch 27,9W wanneer ze aan staan.
 ---
 
 # Midden array: LED-array M𝔲ήeeв
-Deze LED-array bestaat uit twee identieke [PCB's] (../leds/index.md) die parallel gevoed worden.
+Deze LED-array bestaat uit twee identieke [PCB's](../leds/index.md) die parallel gevoed worden.
 
 Deze LED-array bestaat uit twee identieke PCB's die parallel gevoed worden (zie in LED en PCB voor schema's van de PCB's) [2 stroombronnen van 1400mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1400?qs=O2yOKspD61Aj4Vv%2BmwlI7Q%3D%3D) en [1 stroombron van 1050mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D):
 
