@@ -38,6 +38,7 @@ This LED-array is powered by [x1 1050mA current source](https://www.mouser.be/Pr
 - The 12 far red LEDs are powered by one 350mA current source. It powers the red LEDs on the two PCB's in parallel. Every red LED has a forward voltage of 2.15V and 175mA going through it. The power going through the red LEDs is thus (2.15V * 0.175 * 12 =) 4.5W.
 
 The total power draw is theoretically 27.9W when they are turned on.
+
 ---
 
 # Controlling the LED-sources
