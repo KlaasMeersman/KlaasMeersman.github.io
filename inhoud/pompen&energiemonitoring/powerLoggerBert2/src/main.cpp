@@ -13,7 +13,7 @@
 #define ADS1115_CONVERSION_REG 0x00 // Conversion register adres
 #define ADS1115_CONFIG_REG 0x01 // Configuration register adres
 
-uint8_t relaisPinnen[3] = {19,23};
+uint8_t relaisPinnen[3] = {18,19,23};
 unsigned long lastExecutedMillis = 0;
 
 float acsSpanningen[4];
@@ -111,7 +111,7 @@ void publishLED3() {
   float totalPower;
   float power[3] = {berekenSpanning(ADS1115_ADDRESS_2,0)*berekenStromen(ADS1115_ADDRESS_1,0),berekenSpanning(ADS1115_ADDRESS_2,1)*berekenStromen(ADS1115_ADDRESS_1,1),berekenSpanning(ADS1115_ADDRESS_2,3)*berekenStromen(ADS1115_ADDRESS_1,2)};
   for(int i = 0; i < 3; i++){
-    totalPower = totalPower + power[i];
+    totalPower = totalPower + abs(power[i]);
   }
   snprintf(message, sizeof(message), "%.2f", totalPower); // Converteer float naar string
   Serial.print("LED3 : ");
@@ -139,19 +139,19 @@ void reconnect() {
 void mqttCallback(char *topic, byte *payload, unsigned int length) {
   if(strcmp(topic, "LICHT/LICHT4") == 0){
     if (payload[0] == '1'){
-           digitalWrite(relaisPinnen[0], HIGH);
+           digitalWrite(relaisPinnen[1], HIGH);
            Serial.println("LED4 AAN");
         }else if (payload[0] == '0'){
-           digitalWrite(relaisPinnen[0], LOW);
+           digitalWrite(relaisPinnen[1], LOW);
            Serial.println("LED4 UIT");
         }
   } 
   else if(strcmp(topic, "LICHT/LICHT5") == 0){
     if (payload[0] == '1'){
-           digitalWrite(relaisPinnen[1], HIGH);
+           digitalWrite(relaisPinnen[2], HIGH);
            Serial.println("LED5 AAN");
         }else if (payload[0] == '0'){
-           digitalWrite(relaisPinnen[1], LOW);
+           digitalWrite(relaisPinnen[2], LOW);
            Serial.println("LED5 UIT");
         }
   }
@@ -165,13 +165,14 @@ void setup() {
   client.setCallback(mqttCallback);
   
 
-for(int i = 0; i < 2; i++) pinMode(relaisPinnen[i], OUTPUT);
-  for(int i = 0; i < 2; i++) digitalWrite(relaisPinnen[i], LOW);
+  for(int i = 0; i < 3; i++) pinMode(relaisPinnen[i], OUTPUT);
+  for(int i = 0; i < 3; i++) digitalWrite(relaisPinnen[i], LOW);
   delay(5000);
   doeCalibratie();
-  delay(2000);
-  for(int i = 0; i < 2; i++) digitalWrite(relaisPinnen[i], HIGH);
-  delay(2000);
+  for(int i = 0; i < 3; i++){
+    digitalWrite(relaisPinnen[i], HIGH);
+    delay(250);
+  }
 }
 
 void loop() {
@@ -191,8 +192,8 @@ void loop() {
     Serial.println("Stroom AAN: ");
     printResultaat("ADC 1",0, false, berekenStromen(ADS1115_ADDRESS_1,0));
     printResultaat("ADC 1",1, false, berekenStromen(ADS1115_ADDRESS_1,1));
-    printResultaat("ADC 1",0, false, berekenStromen(ADS1115_ADDRESS_1,2));
-    printResultaat("ADC 1",1, false, berekenStromen(ADS1115_ADDRESS_1,3));
+    printResultaat("ADC 1",2, false, berekenStromen(ADS1115_ADDRESS_1,2));
+    printResultaat("ADC 1",3, false, berekenStromen(ADS1115_ADDRESS_1,3));
     Serial.println("\n");
     publishLED3();
   }

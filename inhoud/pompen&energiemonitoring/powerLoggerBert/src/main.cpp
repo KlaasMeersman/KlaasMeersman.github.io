@@ -11,29 +11,26 @@
 #define ADS1115_ADDRESS_0 0x48 // adres ADC 0 GND (Isens 0 - 3)
 #define ADS1115_ADDRESS_1 0x49 // adres ADC 1 VCC (Isens 4 - 7)
 #define ADS1115_ADDRESS_2 0x4B // adres ADC 2 SDA (Vsens 0 - 3)
-#define ADS1115_ADDRESS_3 0x4A // adres ADC 3 SCL (Vsens 4 - 3)
+#define ADS1115_ADDRESS_3 0x4A // adres ADC 3 SCL (Vsens 4 - 7)
 #define ADS1115_CONVERSION_REG 0x00 // Conversion register adres
 #define ADS1115_CONFIG_REG 0x01 // Configuration register adres
 
 uint8_t relaisPinnen[3] = {18,19,23};
 unsigned long lastExecutedMillis = 0;
 
-float acsSpanningen[6];
+float acsSpanningen[8];
 float acsFactoren_2[4] = {0.1277, 0.1942, 0.0766, 0.18};
 float acsFactoren_3[4] = {0.0909, 0.2452, 1, 1};
-float refStroom[6];
-float refSpanning[6];
+float refStroom[8];
+float refSpanning[8];
 
 int16_t leesADC(uint8_t address, uint8_t channel) {
-  // Set up configuration register for single-ended input reading from the specified channel
   uint8_t config[3] = {ADS1115_CONFIG_REG, 0xC3 | (channel << 4), 0x83}; // MSB, LSB
 
-  // Write configuration bytes
   Wire.beginTransmission(address);
   Wire.write(config, 3);
   Wire.endTransmission();
 
-  // Wait for conversion to complete (about 8ms)
   delay(10);
 
   // Read conversion register (16 bits)
@@ -46,7 +43,6 @@ int16_t leesADC(uint8_t address, uint8_t channel) {
   if (Wire.available() == 2) {
     uint8_t msb = Wire.read();
     uint8_t lsb = Wire.read();
-    // Combine MSB and LSB to get raw value
     rawValue = (msb << 8) | lsb;
   }
   return rawValue;
@@ -96,7 +92,7 @@ void doeCalibratie(){
     refSpanning[i] = berekenSpanning(ADS1115_ADDRESS_2,i);
     refStroom[i] = berekenStromen(ADS1115_ADDRESS_0, i);
   }
-  for(int i = 0; i < 2; i++){
+  for(int i = 0; i < 4; i++){
     acsSpanningen[i+4] = berekenSpanning(ADS1115_ADDRESS_1, i);
     refSpanning[i+4] = berekenSpanning(ADS1115_ADDRESS_3,i);
     refStroom[i+4] = berekenStromen(ADS1115_ADDRESS_1, i);
@@ -126,7 +122,7 @@ void publishLED1() {
   float totalPower;
   float power[3] = {berekenSpanning(ADS1115_ADDRESS_2,0)*berekenStromen(ADS1115_ADDRESS_1,0),berekenSpanning(ADS1115_ADDRESS_2,1)*berekenStromen(ADS1115_ADDRESS_1,1), berekenSpanning(ADS1115_ADDRESS_2,3)*berekenStromen(ADS1115_ADDRESS_0,3)};
   for(int i = 0; i < 3; i++){
-    totalPower = totalPower + power[i];
+    totalPower = totalPower + abs(power[i]);
   }
   snprintf(message, sizeof(message), "%.2f", totalPower); // Converteer float naar string
   Serial.print("LED1: ");
@@ -139,7 +135,7 @@ void publishLED2() {
   float totalPower;
   float power[3] = {berekenSpanning(ADS1115_ADDRESS_2,2)*berekenStromen(ADS1115_ADDRESS_0,0),berekenSpanning(ADS1115_ADDRESS_3,0)*berekenStromen(ADS1115_ADDRESS_0,1), berekenSpanning(ADS1115_ADDRESS_3,1)*berekenStromen(ADS1115_ADDRESS_0,2)};
   for(int i = 0; i < 3; i++){
-    totalPower = totalPower + power[i];
+    totalPower = totalPower + abs(power[i]);
   }
   snprintf(message, sizeof(message), "%.2f", totalPower); // Converteer float naar string
   Serial.print("LED2: ");
@@ -152,6 +148,13 @@ void publish5V() {
   float totalPower = (5*berekenStromen(ADS1115_ADDRESS_1,3));
   snprintf(message, sizeof(message), "%.2f", totalPower); // Converteer float naar string
   client.publish("5VPOWER", message);
+}
+
+void publish12V() {
+  char message[5];
+  float totalPower = (12*berekenStromen(ADS1115_ADDRESS_1,2));
+  snprintf(message, sizeof(message), "%.2f", totalPower); // Converteer float naar string
+  client.publish("12VPOWER", message);
 }
 
 void reconnect() {
@@ -210,13 +213,14 @@ void setup() {
   client.setCallback(mqttCallback);
   
 
-for(int i = 0; i < 3; i++) pinMode(relaisPinnen[i], OUTPUT);
+  for(int i = 0; i < 3; i++) pinMode(relaisPinnen[i], OUTPUT);
   for(int i = 0; i < 3; i++) digitalWrite(relaisPinnen[i], LOW);
   delay(5000);
   doeCalibratie();
-  delay(2000);
-  for(int i = 0; i < 3; i++) digitalWrite(relaisPinnen[i], HIGH);
-  delay(2000);
+  for(int i = 0; i < 3; i++){
+    digitalWrite(relaisPinnen[i], HIGH);
+    delay(250);
+  }
 }
 
 void loop() {
@@ -241,10 +245,13 @@ void loop() {
     printResultaat("ADC 0",3, false, berekenStromen(ADS1115_ADDRESS_0,3));
     printResultaat("ADC 1",0, false, berekenStromen(ADS1115_ADDRESS_1,0));
     printResultaat("ADC 1",1, false, berekenStromen(ADS1115_ADDRESS_1,1));
+    printResultaat("ADC 1",2, false, berekenStromen(ADS1115_ADDRESS_1,2));
+    printResultaat("ADC 1",3, false, berekenStromen(ADS1115_ADDRESS_1,3));
     Serial.println("\n");
     publishLED1();
     publishLED2();
     publish5V();
+    publish12V();
   }
 }
 
