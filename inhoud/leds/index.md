@@ -16,7 +16,7 @@ De volgende selectie van LEDs is gemaakt door Yuta en Juliang:
 
 [Datasheet](https://otmm.lumileds.com/adaptivemedia/f0665283471a2a639ce8c3006456265ad074bde9)
 
-<iframe src="Proposal_of_LED_from_Yuta_Leo.pdf" width="100%" height="600px"></iframe>
+<iframe src1="Proposal_of_LED_from_Yuta_Leo.pdf" width="100%" height="600px"></iframe>
 
 ![](yutajualian.png)
 
