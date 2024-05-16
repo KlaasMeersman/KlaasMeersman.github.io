@@ -16,7 +16,11 @@ Het energiemonitoringsbordje is ontworpen als een veelzijdige oplossing voor het
 
 ## Schema & PCB
 
-...
+Nadat de LED's en de voedingen bekend waren, hebben we het energiemonitoringsbordje aangepast aan de verwachtingen. Zo zijn we tot de functionaliteiten gekomen die hierboven beschreven zijn. Na enige correcties en goedkeuring zijn we aan de slag gegaan met het maken van het schema, dat ook te vinden is op GitHub. Nadat het schema was goedgekeurd, zijn we begonnen met het ontwerpen van de PCB.
+
+Op de foto hieronder ziet u de stappen die we hebben doorlopen om tot een werkend eindresultaat te komen. De PCB is een 2-laags PCB waarbij alle componenten aan de bovenkant gesoldeerd zijn. Alle pads aan de buitenkant dienen om stroom naar de stroommeetchips te leiden of spanning naar de spanningsdelers te brengen. Het was belangrijk om geen groundplane rondom te hebben, omdat dit interferentie kan veroorzaken.
+
+Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solderen met een warmteplaat gemakkelijker maakt. Helaas hadden we deze niet tot onze beschikking, waardoor het solderen complexer werd.
 
 ![bordje2](bordje2.jpg)
 ![pcb](pcb.jpg)
