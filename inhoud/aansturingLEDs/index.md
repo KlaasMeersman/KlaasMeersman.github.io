@@ -17,6 +17,13 @@ Deze LED-array wordt gevoed door [1 stroombron van 1050mA](https://www.mouser.be
 
 Het totale stroomverbruik is theoretisch 27,9W wanneer ze aan staan.
 
+Merk op dat de plus klem van de stroombron telkens verbonden wordt met de min pad op het bord. We maakten een fout bij het ontwerpen van de LED-component in het PCB design.
+De bedrading gebeurt als volgt:
+
+<img src="Yuta_Jualiang_bedrading.png" alt="alt text" style="width:600px;">
+
+
+
 ---
 
 # Midden array: LED-array M𝔲ήeeв
