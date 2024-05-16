@@ -5,14 +5,14 @@ title: LED en PCB
 
 ---
 
-# LEDYuta en Jualiang
+# Yuta en Jualiang
 
-De volgende selectie van LEDs is gemaakt door Yuta en Juliang:
+De volgende selectie van LEDs is gemaakt door Yuta en Jualiang:
 
-* White LEDs: 72  (L1SP-PNK1002800000)
-* Blue LEDs: 12  (L1SP-RYL0002800000)
-* Red LEDs: 12  (L1SP-DRD0002800000)
-* FR LEDs: 12  (L1SP-FRD0002800000)
+* Wit: 72  (L1SP-PNK1002800000)
+* Blauw: 12  (L1SP-RYL0002800000)
+* Rood: 12  (L1SP-DRD0002800000)
+* Infrarood: 12  (L1SP-FRD0002800000)
 
 [Datasheet](https://otmm.lumileds.com/adaptivemedia/f0665283471a2a639ce8c3006456265ad074bde9)
 
