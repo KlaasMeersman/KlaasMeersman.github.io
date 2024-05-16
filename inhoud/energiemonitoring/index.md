@@ -48,3 +48,7 @@ De code voor het energiemonitoringsbordje omvat de firmware die op de microcontr
 
 Het energiemonitoringsbordje biedt een handige en effectieve manier om het energieverbruik van apparaten te meten en te monitoren. Door de nauwkeurige metingen en de flexibele communicatiemogelijkheden is het een waardevol instrument voor energiebewaking en -beheer.
 
+<video width="320" height="240" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
