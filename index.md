@@ -1,5 +1,6 @@
 ---
 title: Vertical farm - IB3
+layout: default
 ---
 
 ![](inhoud/images/verticalfarmcloset.png)
