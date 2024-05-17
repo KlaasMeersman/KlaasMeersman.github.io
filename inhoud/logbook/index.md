@@ -108,6 +108,7 @@ title: Logboek
 * het uittesten van correct af/uit schakeling + correcte stroommeting
 
 14 mei:
+* Voedingen verbonden 
 
 16 mei:
 * !presentatie!
