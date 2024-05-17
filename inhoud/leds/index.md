@@ -36,7 +36,7 @@ De volgende selectie van LEDs is gemaakt door M𝔲ήeeв:
 
 De keuze voor de LED's wordt niet verklaard. Vermoedelijk wordt er gegaan voor een rood/blauw ratio van 3/1. Een deel van het blauw wordt gehaald uit de witte LEDs die ook een piek hebben bij de golflengtes equivalent aan blauw.
 
-| Blauw                      |Rood                        |Wite                          | 
+| Blauw                      |Rood                        |Wit                           | 
 |:--------------------------:|:--------------------------:|:----------------------------:|
 |![](MuneebBLUEspectrum.png) | ![](MuneebREDspectrum.png) | ![](MuneebWHITEspectrum.png) |
 
