@@ -98,6 +98,8 @@ Hieruit vinden we volgende tabellen en grafieken:
 
 Deze data en bekomen rechten kunnen dan gebruikt worden om met de sensoren de voedingstank eenmalig uit te lezen. Vervolgens wordt de gemeten data teruggekoppeld aan het systeem via de Raspberry Pi m.b.h.v. een ISE interface vanuit het chemielab, een Consort C681. Men hoort deze calibratie telkens uit te voeren alvorens de voedingstank uit gelezen wordt. Dit omdat de ISE's niet gemaakt zijn voor intensief gebruik en deze dus al snel kunnen afwijken van hun eerste calibratiewaarden. 
 
+[Link naar ISE code (USB connectie aan raspberry pi)](https://github.com/KlaasMeersman/KlaasMeersman.github.io/blob/main/inhoud/aquaMonitoring/ISE_UITLEZING.py(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
+
 
 # Aanvulling nutrienten
 
@@ -118,13 +120,13 @@ Er zijn 3 pompen voorzien om water, voedingsoplossing A en B in de watertank te 
 
 Na het aanvullen van de watertank zal een nieuwe meting plaatsvinden om na te gaan of er nergens een overshoot heeft plaatsgevonden waardoor de tank aangelengd zou worden met water.
 
-(Uitleg Code)
+[Link naar relays code](https://github.com/KlaasMeersman/KlaasMeersman.github.io/blob/main/inhoud/aquaMonitoring/Relays.cpp(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 
 # Controle niveau watertank
 
 Om het volume water in de tank binnen grenswaarden te houden maken we gebruik van een sonarmodule.
 
-[Link naar sonarmodule code](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/aquaMonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
+[Link naar sonarmodule code](https://github.com/KlaasMeersman/KlaasMeersman.github.io/blob/main/inhoud/aquaMonitoring/Hoogtesensor.cpp(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 
 
 
