@@ -1,5 +1,5 @@
 ---
-title: LED en PCB
+title: LEDPCB
 ---
 
 
