@@ -24,7 +24,7 @@ github_username:  klaasmeersman
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/time-machine
+remote_theme: pages-themes/tactile
 plugins:
   - jekyll-feed
   - jemoji
