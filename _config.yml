@@ -24,7 +24,7 @@ github_username:  klaasmeersman
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/vonge
+remote_theme: pages-themes/jekflix
 plugins:
   - jekyll-feed
   - jemoji
