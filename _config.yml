@@ -24,7 +24,7 @@ github_username:  klaasmeersman
 
 # Build settings
 markdown: kramdown
-theme: midnight
+theme: Cayman
 plugins:
   - jekyll-feed
   - jemoji
