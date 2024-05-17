@@ -17,7 +17,7 @@ Deze LED-array wordt gevoed door [1 stroombron van 1050mA](https://www.mouser.be
 
 Het totale stroomverbruik is theoretisch 27,9W wanneer ze aan staan.
 
-Merk op dat de plus klem van de stroombron telkens verbonden wordt met de min pad op het bord. We maakten een fout bij het ontwerpen van de LED-component in het PCB design.
+Merk op dat de plus klem van de stroombron telkens verbonden wordt met de min pad op het bord. Dit komt door een fout bij het ontwerpen van de LED-component in het PCB design.
 De bedrading gebeurt als volgt:
 
 <img src="Yuta_Jualiang_bedrading.png" alt="alt text" style="width:600px;">
@@ -52,6 +52,11 @@ Deze LED-array bestaat uit 4 [PCB's](../leds/index.md): x3 type1 en x1 type2.
 Deze LED-array wordt gevoed door 1 stroombron van 200mA, [1 stroombron van 500mA](https://www.mouser.be/ProductDetail/RECOM-Power/RACT12-500?qs=gt1LBUVyoHnLAK5OjzGrww%3D%3D) en [1 stroombron van 1400mA](https://www.mouser.be/ProductDetail/MEAN-WELL/PCD-25-1400B?qs=%2F%2Bo%2FYLy8OFqnTDCUJjd14g%3D%3D).
 
 Er zijn 11 blauwe LED's, 17 rode en 55 far-red.
+
+Vermogen dissipatie:
+- blauw: 6,2W
+- rood 5,5W
+- infrarood 20,5W
 
 ---
 
