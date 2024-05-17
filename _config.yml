@@ -37,11 +37,11 @@ kramdown:
 header_pages:
   - inhoud/leds/index.md
   - inhoud/aansturingLEDs/index.md
+  - inhoud/energiemonitoring/index.md
   - inhoud/aquaMonitoring/index.md
   - inhoud/dashboard/index.md
   - inhoud/modulariteit/index.md
   - inhoud/plantensensor/index.md
-  - inhoud/energiemonitoring/index.md
   - inhoud/operation/index.md
   - inhoud/logbook/index.md
   
