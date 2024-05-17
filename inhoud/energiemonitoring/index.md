@@ -1,3 +1,7 @@
+---
+title: Energiemonitoring
+---
+
 ## Inleiding
 ![stappen](stappen.jpg)
 

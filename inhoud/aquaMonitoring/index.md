@@ -1,5 +1,5 @@
 ---
-title: Water voorziening
+title: Watervoorziening
 ---
 # Vertical Farm
 Voor de vertical Farm is gekozen voor een hydroponics druppelsysteem. Dit wil zeggen dat de planten niet in potgrond gekweekt worden maar in een substraat (hier Rockwool). Alle nodige voeding voor de planten wordt voorzien in het water dat naar de planten gepompt wordt. Bijgevolg is het belangrijk dat de voedingswaarden uit een watertank kan uitgelezen worden om de nutrienten in het water dynamisch bij te vullen. Deze aqua monitoring is opgebouwd uit 2 grote delen: het uitlezen van de concentraties van de voedingsstoffen alsook het automatische aanvullen van deze voedingsstoffen.
