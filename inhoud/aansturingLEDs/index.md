@@ -1,5 +1,5 @@
 ---
-title: LED-aansturing
+title: LEDaansturing
 ---
 
 # Rechter array: LED-array Yuta en Jualiang
