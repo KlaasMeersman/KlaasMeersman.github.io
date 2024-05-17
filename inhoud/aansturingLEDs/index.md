@@ -58,6 +58,10 @@ Vermogen dissipatie:
 - rood 5,5W
 - infrarood 20,5W
 
+Het totale stroomverbruik is theoretisch 32,2W wanneer ze aan staan.
+
+De bedrading gebeurt als volgt:
+
 ---
 
 # Aansturen van de LED-bronnen
