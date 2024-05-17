@@ -2,7 +2,7 @@
 title: LEDaansturing
 ---
 
-# Rechter array: LED-array Yuta en Jualiang
+# Rechter array: LED-array Yuta en Jialiang
 Deze LED-array bestaat uit twee identieke [PCB's](../leds/index.md) die parallel gevoed worden.
 
 Deze LED-array wordt gevoed door [1 stroombron van 1050mA](https://www.mouser.be/ProductDetail/MEAN-WELL/LPC-60-1050?qs=O2yOKspD61CwHxEZesuS%2Fw%3D%3D) en [2 stroombronnen van 350mA](https://www.mouser.be/ProductDetail/MEAN-WELL/APC-12-350?qs=DNaZHaGatO0h%2FjPDgBoC1g%3D%3D).
