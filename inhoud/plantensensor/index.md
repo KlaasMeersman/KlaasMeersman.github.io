@@ -1,5 +1,6 @@
 ---
 title: Plantenmonitoring
+layout: default
 ---
 
 Hier kunnen jullie alles terug vinden i.v.m. het plantenmonitoring. Zoals schema's, PCB ontwerp, datasheets etc. 
