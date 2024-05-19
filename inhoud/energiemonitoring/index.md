@@ -23,7 +23,7 @@ Het energiemonitoringsbordje is ontworpen als een veelzijdige oplossing voor het
 - Er zijn ook 3 relais aanwezig op het bordje, elk met 2 schakelaars. Hiermee kunnen specifieke LEDs eenvoudig aan- of uitgeschakeld worden.
 - De kern van ons energiemonitoringsbordje wordt gevormd door de ESP32 microcontroller. Deze microcontroller biedt niet alleen de rekenkracht om complexe berekeningen uit te voeren, maar zorgt ook voor de kalibratie van het vermogen.
 
-## Schema & PCB
+## PCB
 
 Nadat de LED's en de voedingen bekend waren, hebben we het energiemonitoringsbordje aangepast aan de verwachtingen. Zo zijn we tot de functionaliteiten gekomen die hierboven beschreven zijn. Na enige correcties en goedkeuring zijn we aan de slag gegaan met het maken van het schema, dat ook te vinden is op GitHub. Nadat het schema was goedgekeurd, zijn we begonnen met het ontwerpen van de PCB.
 
@@ -32,7 +32,7 @@ Op de foto hieronder ziet u de stappen die we hebben doorlopen om tot een werken
 Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solderen met een warmteplaat gemakkelijker maakt. Helaas hadden we deze niet tot onze beschikking, waardoor het solderen complexer werd.
 
 ![bordje2](bordje2.jpg)
-![pcb](pcb.jpg)
+<iframe src="/PCBs Bert (Type1, Type2, Powerlogger)/PowerLoggerPowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 
 [LINK NAAR DE FILES](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 ## Werking
@@ -58,14 +58,18 @@ De meting is vergelijkbaar met het aansluiten van een multimeter. De stroom word
 
 Zorg ervoor dat alle grounds correct verbonden zijn, zodat er een correcte meting kan plaatsvinden.
 
-## Componenten
+## Componenten + uitleg van aansturing
 ![componenten](componenten.jpg)
-### ADS1115 ADC (Analog-to-Digital Converter)
 
+### EE2-5NUX-L relais
+![relais](relais.jpg)
+
+### ADS1115 ADC (Analog-to-Digital Converter)
+![i2cbedrading](i2cbedrading.jpg)
 ...
 
 ### ACS712 5A
-
+![stroommeting](stroommeting.jpg)
 ...
 
 ### 5V->3.3V converter
