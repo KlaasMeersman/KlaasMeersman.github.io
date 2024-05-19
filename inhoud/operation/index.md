@@ -35,3 +35,14 @@ Nu mag ook de hoogspanning aangestoken worden, dus de rechtste 230V kabel in ver
 Het kan zijn dat de meest rechtste relais blijft plakken, dit is ten gevolge van de hoge ingangsstroom. Dit zorgt ervoor dat de interne relaispinnen aan elkaar gelast zijn. Als dit gebeurt mag een pedagogische tik gegeven worden met de tang op de relais.
 
 <img src="Figuren/6.jpg" alt="drawing" width="500"/>
+
+# Uitleg Dashboard en wachtwoorden
+
+De Vertical Farm in het gebouw is tot stand gekomen door gebruik te maken van een raspberry pi. Hierop zit een usb-stick die voor de verbinding met het Internet voorziet. Het is dus belangrijk dat er wordt gecontroleerd of dit zo is want anders zullen de service niet werken. Het IP-adres zou normaal 192.168.0.40 moeten zijn. Volgend schema is een samenvatting van alle poorten en logins zodat jullie alles kunnen bereiken als dat nodig is. 
+| name | port | username |password|
+|----------|----------|----------|----------|
+| HomeAssistant | 8123 | VF | IB3 |
+| ESPHome | 6052 | / | /|
+| Mosquitto Broker | 1883 | VF | IB3 |
+| Grafana | 3000 | admin | admin |
+| InfluxDB | 8086 | VF | WelcomeToVF |
