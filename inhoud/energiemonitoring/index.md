@@ -7,6 +7,8 @@ title: Energiemonitoring
 
 ---
 
+Bert P.
+
 ## Inleiding
 ![stappen](stappen.jpg)
 
@@ -112,3 +114,7 @@ Links staan de gemeten waarden via USB/TLL (UART) en rechts staan de verwachte w
   <source src="demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+
+Bert P.
