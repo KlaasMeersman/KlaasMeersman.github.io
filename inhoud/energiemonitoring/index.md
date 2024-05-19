@@ -35,14 +35,15 @@ Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solder
 <iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLogger/PowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 <iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLogger/PowerloggerSch.pdf" width="100%" height="600px"></iframe>
 [LINK NAAR DE FILES](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
-## Werking
+
+## Werking 
 ### Blokschema
 
 ![blokschema](blokschema.jpg)
 
 Hierboven zie je het eenvoudige blokschema van het energiemonitoringsbordje. Het is onderverdeeld in verschillende delen, verbonden met pijlen. Aan de linkerkant van het schema zie je de te meten componenten:+5V, +12V en de LED's (Per LED 3 voedingen). In het midden zie je de interne elektronica van het energiemonitoringsbordje, en aan de rechterkant zie je de uitgang dat het bordje naar stuurt, namelijk de MQTT-broker en home-assistant. 
 
-De +5V en +12V worden binnen gelezen en geregistreerd door de stroomchips (ACS712). Deze stroomchips zijn magnetische hall-sensoren die op een lineaire manier stroom tot 5 ampère of -5 ampère omzetten naar een spanning. Aangezien de stroomchips op +5V volt werken, moet de output van de stroomchip via een spanningsdeler worden omgezet naar 3.3V zodat de ADC dit kan binnenlezen en digitaliseren. De ADC stuurt deze informatie vervolgens door naar de ESP32 via I2C.
+De +5V en +12V worden binnen gelezen en geregistreerd door de stroomchips (ACS712). Deze stroomchips zijn magnetische hall-sensoren die op een lineaire manier stroom tot 5A of -5A omzetten naar een spanning. Aangezien de stroomchips op +5V volt werken, moet de output van de stroomchip via een spanningsdeler worden omgezet naar 3.3V zodat de ADC dit kan binnenlezen en digitaliseren. De ADC stuurt deze informatie vervolgens door naar de ESP32 via I2C.
 
 Voor de voedingen van de LED's gaat het eerst door een relais, waardoor het mogelijk is om de LED's aan of uit te zetten. Op het bord zijn 4 ADC's aanwezig, waarvan twee voor het meten en digitaliseren van stroom en twee voor het meten of digitaliseren van spanning. Zo is er voor iedere LED 3 voedingen, en voor iedere voeding is er een relais, een stroomcircuitmeting en een spanningscircuitmeting aanwezig. Voor de correcte spanning te lezen is het belangerijk dat je de juiste weerstandswaarden kiest zodat je MAXIMAAL 3.3+0.3V aan de ingang van ADC hebt.
 
@@ -61,7 +62,7 @@ Zorg ervoor dat alle grounds correct verbonden zijn, zodat er een correcte metin
 ## Componenten + uitleg van aansturing
 ![componenten](componenten.jpg)
 
-Hieronder worden de fundamentele componenten voor vermogensmeting, exclusief de microcontroller, duidelijk besproken.
+Hieronder worden de fundamentele componenten voor vermogensmeting, inclusief de microcontroller, duidelijk besproken.
 
 ### EE2-5NUX-L relais
 ![relais](relais.jpg)
@@ -80,15 +81,17 @@ Je kunt maximaal vier ADS1115 ADC's via I²C op één bus aansturen. Elk van de 
 ### ACS712 5A
 ![stroommeting](stroommeting.jpg)
 
-De ACS712ELCTR-05B-T is een stroomsensor die nauwkeurige wisselstroom- en gelijkstroommetingen mogelijk maakt. De sensor heeft een ingebouwde magnetische hall-effect meter die stroom detecteert via een geleidende pad en zet dit om in een proportioneel analoog uitgangssignaal. Het lineaire verband tussen de gemeten stroom en de uitgangsspanning is een belangrijk kenmerk van de ACS712. Voor de 5A-variant levert de sensor een uitgangsspanning van 185 mV per ampère stroom, wat betekent dat een verandering in de gemeten stroom direct leidt tot een evenredige verandering in de uitgangsspanning, waardoor de metingen eenvoudig en nauwkeurig kunnen worden uitgelezen door een microcontroller. Aangezien het ook wisselstroom kan meten van -5A, +5A ampère en 
+De ACS712ELCTR-05B-T is een stroomsensor die nauwkeurige wisselstroom- en gelijkstroommetingen mogelijk maakt. De sensor heeft een ingebouwde magnetische hall-effect meter die stroom detecteert via een geleidende pad en zet dit om in een proportioneel analoog uitgangssignaal. Het lineaire verband tussen de gemeten stroom en de uitgangsspanning is een belangrijk kenmerk van de ACS712. Voor de 5A-variant levert de sensor een uitgangsspanning van 185 mV per A, wat betekent dat een verandering in de gemeten stroom direct leidt tot een evenredige verandering in de uitgangsspanning, waardoor de metingen eenvoudig en nauwkeurig kunnen worden uitgelezen door een microcontroller. Aangezien het wisselstroom kan meten van -5A, +5A ampère is bij 0A de uitgang van de ACS712 gelijk aan 2.5V. dit moet via een spanningsveranderingciruit omgezet worden naar een leesbare overeenkomstige spanning zodat de ADC dit kan lezen en digitaliseren.
 
 ### 5V->3.3V converter
 
-...
+Het linker circuit op de foto hierboven zorgt voor een correcte spanningsomzetting. De ACS712 werkt op 5V en geeft bij 0A een uitgangsspanning van 2.5V. Omdat de ADC op 3.3V werkt, verwachten we bij 0A een uitgangsspanning van ongeveer 1.65V. Daarom is een spanningsomvorming noodzakelijk. De schakeling functioneert als een spanningsdeler. Achter de spanningsdeler is een diode geplaatst die zorgt voor een spanningsval van 0.7V en enkelrichting van het signaal. 
+
+Algemeen zorgt de schakeling voor een omzetting van 0V-5V naar 0V-3.3V, waardoor het signaal leesbaar wordt voor de ADC.
 
 ### ESP32
 
-...
+De ESP32 is een krachtige en veelzijdige microcontroller van Espressif Systems, voorzien van geïntegreerde Wi-Fi en Bluetooth. Het beschikt over een dual-core processor, uitgebreide GPIO-pinnen, analoge en digitale interfaces, en diverse communicatieprotocollen zoals UART, SPI, en I2C. 
 
 ## MQTT
 ![ds](ds.jpg)
@@ -96,10 +99,14 @@ De ACS712ELCTR-05B-T is een stroomsensor die nauwkeurige wisselstroom- en gelijk
 ## Code
 
 ![methoden](methoden.jpg)
-...
+
+Commentaar staat in code.
 
 ## Slot
+
 ![waarden](waarden.jpg)
+
+Links staan de gemeten waarden via USB/TLL (UART) en rechts staan de verwachte waarden berekend voor LED1 met excel.
 
 <video width="320" height="240" controls>
   <source src="demo.mp4" type="video/mp4">
