@@ -8,8 +8,6 @@ title: Plantenmonitoring
 
 Hier kunnen jullie alles terug vinden i.v.m. het plantenmonitoring. Zoals schema's, PCB ontwerp, datasheets etc. 
 
-Voor de planten werden 2 verschillende soorten PCB's gemaakt. De PCB die instaat voor het aansturen van de ventilatoren is de zelfde als bij de pompen voor het water. Meer informatie en design kunt u [daar](../aquaMonitoring/index.md) vinden. De 2e soort PCB werd door ons ontworpen. De PCB's die we ontworpen hebben kunnen voorzien worden van twee SCD40 sensoren en twee grond-vochtigheidsensoren. We hebben echter besloten om slechts 1 SCD40 sensor per bordje aan te sluiten door het dure prijskaartje van de sensor. Aan de hand van de SCD40 kan de CO2, temperatuur en vochtigheid van de lucht gemeten worden. Deze zijn cruciaal voor de groei van de planten en moeten dus gemonitord worden. Zo kunnen de waarden bijgestuurd worden als ze niet goed zijn voor de plantengroei. De grond-vochtigheidsensor kan gebruikt worden om de meten hoe vochtig de grond is en zo de planten extra of minder water de geven.
-
 # Ventilatoren
 Er zijn 6 ventilatoren aanwezig, voor elke plantenbak 1. Het hoofddoel van de ventilatoren is zorgen voor de stevigheid van de planten. Er moet wat wind aanwezig zijn om een sterke stengel te krijgen. We hebben gekozen om de ventilatoren op elk uur 10min te laten draaien. Daarnaast beïnvloeden de ventilatoren ook de temperatuur en luchtvochtigheid. Als het warmer wordt dan 28°C op 1 van de 3 SCD40 sensoren zullen de ventilatoren ook aanschakelen. Daarnaast zullen ze ook aanschakelen als de luchtvochtigheid bij 1 van de sensoren groter wordt dan 90%. De ventilatoren die we gebruiken werden uit oude computers gedemonteerd en hebben dus geen geld gekost. Ze werken op 12V, deze 12V wordt geschakeld aan de hand van een PCB met een relais.
 
@@ -23,9 +21,11 @@ Aan de hand van de grondsensor wordt de vochtigheid van het substraat (rockwool)
 
 # PCB-design
 
+In de vertical farm wordt er gebruikt gemaakt van zelf gemaakte PCB. De PCB die zorgt voor de ventilatoren is een PCB die is gemaakt door het aquamonitring team en kunt u [daar](../aquaMonitoring/index.md) meer informatie over vinden. 
+De 2e soort PCB werd door ons ontworpen. De PCB die ontworpen is kan voorzien zijn van twee SCD40 sensoren en twee grondsensoren. Er is echter wel besloten om slechts 1 SCD40 sensor per bordje aan te sluiten door het dure prijskaartje van de sensor. Hierdoor is er natuurlijk de mogelijkheid om zelf nog een nieuwe sensor te integreren als deze werkt met I<sup>2</sup>C. Het schema kunt u hieronder vinden als pdf. Ook de kicad files zijn beschikbaar en kunt u [hier](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/plantensensor/Plantsensor%20with%20mosquitto%20broker/PlantSensor) vinden. 
 <iframe src="schematic.pdf" width="100%" height="600px"></iframe>
 ![](PCB_plantensensor.png)
 
-# Yaml Files 
+# Codes
 [Download soil-moisture.yaml](soil-moisture.yaml)
 [Download ventilator.yaml](ventilator.yaml)
