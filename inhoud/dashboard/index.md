@@ -10,7 +10,7 @@ title: Dashboard
 
 To get a dashboard with all our measerments we needed to connect all our devices. In the picture below we show how that works. You can see that all the actuators are using MQTT to get their data and also send data on topics. This is then send to our HomeAssistant that is used as a central gathering place for all the data. The data from our plantsensors is send to HomeAssistant with ESPHome, but there are also topics in MQTT for these parameters. Then all the data is stored in a database. We used influxdb as database. This in turn is linked to Grafana where we can diplay our data, calculate things, etc.
 
-<img src="Pictures/Connections.PNG" alt="drawing" width="500"/>
+<img src="Pictures/Connections.png" alt="drawing" width="500"/>
 
 # Home Assistant
 
