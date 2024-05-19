@@ -22,7 +22,7 @@ Aan de hand van de grondsensor wordt de vochtigheid van het substraat (rockwool)
 # PCB-design
 
 In de vertical farm wordt er gebruikt gemaakt van zelf gemaakte PCB. De PCB die zorgt voor de ventilatoren is een PCB die is gemaakt door het aquamonitring team en kunt u [daar](../aquaMonitoring/index.md) meer informatie over vinden. 
-De 2e soort PCB werd door ons ontworpen. De PCB die ontworpen is kan voorzien zijn van twee SCD40 sensoren en twee grondsensoren. Er is echter wel besloten om slechts 1 SCD40 sensor per bordje aan te sluiten door het dure prijskaartje van de sensor. Hierdoor is er natuurlijk de mogelijkheid om zelf nog een nieuwe sensor te integreren als deze werkt met I<sup>2</sup>C. Het schema kunt u hieronder vinden als pdf. Ook de kicad files zijn beschikbaar en kunt u [hier](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/plantensensor/Plantsensor%20with%20mosquitto%20broker/PlantSensor) vinden. 
+De 2e soort PCB werd door ons ontworpen. De PCB die ontworpen is kan voorzien zijn van twee SCD40 sensoren en twee grondsensoren. Er is echter wel besloten om slechts 1 SCD40 sensor per bordje aan te sluiten door het dure prijskaartje van de sensor. Hierdoor is er natuurlijk de mogelijkheid om zelf nog een nieuwe sensor te integreren als deze werkt met I<sup>2</sup>C. Het schema kunt u hieronder vinden als pdf. Ook de kicad files zijn beschikbaar en kunt u [hier](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/plantensensor/PCB%20Project%20soil%20moister%20%2B%20Lucht) vinden. 
 <iframe src="schematic.pdf" width="100%" height="600px"></iframe>
 ![](PCB_plantensensor.png)
 
