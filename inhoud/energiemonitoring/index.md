@@ -33,7 +33,7 @@ Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solder
 
 ![bordje2](bordje2.jpg)
 <iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLogger/PowerloggerBrd.pdf" width="100%" height="600px"></iframe>
-
+<iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLogger/PowerloggerSch.pdf" width="100%" height="600px"></iframe>
 [LINK NAAR DE FILES](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 ## Werking
 ### Blokschema
