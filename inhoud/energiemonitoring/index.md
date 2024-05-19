@@ -32,7 +32,7 @@ Op de foto hieronder ziet u de stappen die we hebben doorlopen om tot een werken
 Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solderen met een warmteplaat gemakkelijker maakt. Helaas hadden we deze niet tot onze beschikking, waardoor het solderen complexer werd.
 
 ![bordje2](bordje2.jpg)
-<iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLoggerPowerloggerBrd.pdf" width="100%" height="600px"></iframe>
+<iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLogger/PowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 
 [LINK NAAR DE FILES](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 ## Werking
@@ -52,7 +52,7 @@ De ESP32 neemt alle informatie op, voert de benodigde berekeningen uit en stuurt
 
 ![bedrading](bedrading.jpg)
 
-Het Energy energiemonitoringsbordje is onderverdeeld in verschillende meetgedeelten. Links bovenaan bevindt zich de stroommeting zonder relais. Dit is bedoeld om de +5V en +12V te meten. Rechts daarvan bevindt zich het stroomgedeelte met relais. Rechtsonder is de spanningsmeting met de juiste weerstandswaarden als spanningsdeler.
+Het energiemonitoringsbordje is onderverdeeld in verschillende meetgedeelten. Links bovenaan bevindt zich de stroommeting zonder relais. Dit is bedoeld om de +5V en +12V te meten. Rechts daarvan bevindt zich het stroomgedeelte met relais. Rechtsonder is de spanningsmeting met de juiste weerstandswaarden als spanningsdeler.
 
 De meting is vergelijkbaar met het aansluiten van een multimeter. De stroom wordt in serie geplaatst en de spanning in parallel. Om de stroom te meten, heeft u twee paden nodig: de inkomende draad en de uitgaande draad. Dit pad kan worden onderbroken door de relais en verbindingen op het bordje voor 8 metingen. Dit werkt op een vergelijkbare manier voor de spanningsmeting, maar met het verschil dat je de spanning slechts op één punt meet omdat de andere verbinding via de spanningsdeler verbonden is met de gnd (SPANNING MEET JE OVER IETS)!
 
