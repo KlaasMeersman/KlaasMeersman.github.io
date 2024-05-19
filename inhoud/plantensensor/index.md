@@ -6,7 +6,7 @@ title: Plantsensing
 
 ---
 
-Hier kunnen jullie alles terug vinden i.v.m. het plantenmonitoring. Zoals schema's, PCB ontwerp, datasheets etc. 
+Here you can find everything related to plant monitoring, including schematics, PCB design, datasheets, etc.. 
 
 # Fans
 
