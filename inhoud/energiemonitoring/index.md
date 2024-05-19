@@ -61,16 +61,26 @@ Zorg ervoor dat alle grounds correct verbonden zijn, zodat er een correcte metin
 ## Componenten + uitleg van aansturing
 ![componenten](componenten.jpg)
 
+Hieronder worden de fundamentele componenten voor vermogensmeting, exclusief de microcontroller, duidelijk besproken.
+
 ### EE2-5NUX-L relais
 ![relais](relais.jpg)
 
+De EE2-5NUX-L is een miniatuurrelais ontworpen voor toepassingen waarbij betrouwbaarheid en compactheid belangerijk zijn. Dit relais heeft een spoelspanning van 5V en biedt hoge gevoeligheid met een lage stroomverbruik. Het relais is dubbelpolig dubbelthrow (DPDT), wat betekent dat het twee aparte schakelingen kan schakelen. Met een schakelfrequentie van maximaal 300 operaties per minuut en een isolatieweerstand van minimaal 1000 MΩ, is de EE2-5NUX-L ideaal voor gebruik in telecommunicatieapparatuur, meetinstrumenten en andere elektronische systemen.
+
+Over de spoelconnectoren is een diode antiparallel geplaatst voor de correcte bescherming van het relais. Het circuit moet worden aangestuurd met een N-type MOSFET, omdat de stuurspanning en -stroom van het relais hoger zijn dan die van de ESP32.
+
 ### ADS1115 ADC (Analog-to-Digital Converter)
 ![i2cbedrading](i2cbedrading.jpg)
-...
+
+De ADS1115 is een 16-bits analoog-naar-digitaal omzetter (ADC) van Texas Instruments. Het beschikt over vier kanalen dat gemultiplext wordt naar een ADC die kan single-ended of differentiële metingen uitvoeren. De ADC heeft een programmeerbare versterker, een lage stroomverbruik en een ingebouwde referentiespanning. Met een I²C-interface is de ADS1115 eenvoudig te integreren in microcontrollersystemen zoals de ESP32.
+
+Je kunt maximaal vier ADS1115 ADC's via I²C op één bus aansturen. Elk van de vier ADC's moet een uniek adres hebben om mee te communiceren. Dit kan worden ingesteld met de soldeerpads op het energiemonitoringsbordje. Zorg ervoor dat elke ADC een ander adres krijgt door nooit dezelfde combinatie van soldeerpads te gebruiken.
 
 ### ACS712 5A
 ![stroommeting](stroommeting.jpg)
-...
+
+De ACS712ELCTR-05B-T is een stroomsensor die nauwkeurige wisselstroom- en gelijkstroommetingen mogelijk maakt. De sensor heeft een ingebouwde magnetische hall-effect meter die stroom detecteert via een geleidende pad en zet dit om in een proportioneel analoog uitgangssignaal. Het lineaire verband tussen de gemeten stroom en de uitgangsspanning is een belangrijk kenmerk van de ACS712. Voor de 5A-variant levert de sensor een uitgangsspanning van 185 mV per ampère stroom, wat betekent dat een verandering in de gemeten stroom direct leidt tot een evenredige verandering in de uitgangsspanning, waardoor de metingen eenvoudig en nauwkeurig kunnen worden uitgelezen door een microcontroller. Aangezien het ook wisselstroom kan meten van -5A, +5A ampère en 
 
 ### 5V->3.3V converter
 
