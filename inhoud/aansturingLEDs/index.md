@@ -67,7 +67,7 @@ Het totale stroomverbruik is theoretisch 32,2W wanneer ze aan staan.
 
 De bedrading gebeurt als volgt:
 
----
+<img src="LED1.jpg" alt="alt text" style="width:600px;">
 
 # Aansturen van de LED-bronnen
 De LED-bronnen worden aangestuurd door een controller board(POWERLOGGER, LEDs SWITCH board).
