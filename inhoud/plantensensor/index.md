@@ -14,13 +14,13 @@ There are 6 fans, one for each plantbox. The main purpose of the fans is to ensu
 
 # SCD40
 
-https://www.tinytronics.nl/en/sensors/air/humidity/gy-scd40-module-co2-humidity-temperature-sensor-i2c 
+[https://www.tinytronics.nl/en/sensors/air/humidity/gy-scd40-module-co2-humidity-temperature-sensor-i2c](https://www.tinytronics.nl/en/sensors/air/humidity/gy-scd40-module-co2-humidity-temperature-sensor-i2c) 
 
 With the SCD40, measurements of CO2, temperature, and humidity can be conducted in the vertical farm. The CO2 measurements have a range of 400-2000 ppm, with an accuracy of ±50 ppm + 5% of the reading within the 400 ppm-2000 ppm range. The humidity measurements have an accuracy of ±6%. Finally, temperature plays a crucial role in plant growth, with a range of -10°C to 60°C and an accuracy of 0.8°C. The communication with this sensor is via I2C. These sensors are connected to our custom-designed PCB and operate with a supply voltage of 3.3V.
 
 # Soil sensor
 
-https://www.tinytronics.nl/en/sensors/liquid/capacitive-soil-moisture-sensor-module-with-cable 
+[https://www.tinytronics.nl/en/sensors/liquid/capacitive-soil-moisture-sensor-module-with-cable](https://www.tinytronics.nl/en/sensors/liquid/capacitive-soil-moisture-sensor-module-with-cable) 
 
 The soil sensor measures the moisture content of the substrate (rockwool). This allows us to determine when the substrate is too dry and the plants need watering. This soil sensor performs capacitive measurements and is also connected to our custom-designed PCB, operating on a supply voltage of 3.3V, just like the SCD40.
 
