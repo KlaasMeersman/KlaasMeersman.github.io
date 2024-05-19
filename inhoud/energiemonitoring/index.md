@@ -32,7 +32,7 @@ Op de foto hieronder ziet u de stappen die we hebben doorlopen om tot een werken
 Alle componenten zijn SMD, er zijn geen through hole componenten, wat het solderen met een warmteplaat gemakkelijker maakt. Helaas hadden we deze niet tot onze beschikking, waardoor het solderen complexer werd.
 
 ![bordje2](bordje2.jpg)
-<iframe src="/PCBs Bert (Type1, Type2, Powerlogger)/PowerLoggerPowerloggerBrd.pdf" width="100%" height="600px"></iframe>
+<iframe src="PCBs Bert (Type1, Type2, Powerlogger)/PowerLoggerPowerloggerBrd.pdf" width="100%" height="600px"></iframe>
 
 [LINK NAAR DE FILES](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/PowerLogger)
 ## Werking
