@@ -130,11 +130,11 @@ Het pompen van de concentraten zal dusdanig afgesteld worden opdat het systeem e
 Peristaltische pompen staan gekend voor het leveren van een constant debiet. Dit is vervolgens experimenteel nagegaan bij een aantal pompjes: 
 
 
-|               |Pomp 1         | Pomp 2        |             |
-|               |:-------------:|:-------------:|:-----------:|
-|Tijd tot 50ml  |24,14 seconden |21,84 seconden |             |
-|Tijd tot 100ml |50,42 seconden |44,44 seconden |             |
-|Debiet         |120ml/min      |135ml/min      |             |
+||Pomp 1 (Gemiddelde na 10 metingen)| Pomp 2 (Gemiddelde na 10 metingen)|    
+|               |:-------------:|:-------------:|
+|Tijd tot 50ml  |24,14 seconden |21,84 seconden |    
+|Tijd tot 100ml |50,42 seconden |44,44 seconden |          
+|Debiet         |120ml/min      |135ml/min      |  
 
 Het debiet is vrij consistent bij beide pompen alhoewel het debiet lager ligt dan beschreven in de specificaties (200ml/min).
 
