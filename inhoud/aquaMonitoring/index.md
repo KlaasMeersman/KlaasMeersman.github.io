@@ -1,4 +1,14 @@
 
+<style> 
+    thead{
+        border-style: solid;
+        border-color: black;
+    }
+    tbody{
+        border-style: solid;
+        border-color: black;
+    }
+</style>
 
 ---
 title: Watervoorziening
@@ -98,6 +108,7 @@ Hieruit vinden we volgende tabellen en grafieken:
 | 100                | 4,61                 | 99,4   | 25,6                |
 | 200                | 5,30                 | 107,7  | 26,6                |
 | 400                | 5,99                 | 126,6  | 25,4                | 
+ 
 
 ![Potassium Graph](../images/Potassium Graph.png) 
 
@@ -117,13 +128,11 @@ Het pompen van de concentraten zal dusdanig afgesteld worden opdat het systeem e
 Peristaltische pompen staan gekend voor het leveren van een constant debiet. Dit is vervolgens experimenteel nagegaan bij een aantal pompjes: 
 
 
-<div class="table">
 |               |Pomp 1         | Pomp 2        |             |
 |               |:-------------:|:-------------:|:-----------:|
 |Tijd tot 50ml  |24,14 seconden |21,84 seconden |             |
 |Tijd tot 100ml |50,42 seconden |44,44 seconden |             |
 |Debiet         |120ml/min      |135ml/min      |             |
-</div>
 
 Het debiet is vrij consistent bij beide pompen alhoewel het debiet lager ligt dan beschreven in de specificaties (200ml/min).
 
@@ -150,14 +159,3 @@ Voor de watervoorziening kunnen nog een aantal zaken geoptimaliseerd worden:
 -Op basis van meerdere groeicycli (met telkens licht gevarieerde parameters) van een plantensoort kan er op zoek gegaan worden naar de ideale voedingscompositie voor de plantensoort. 
 
 -
-
-<style> 
-    thead{
-        border-style: solid;
-        border-color: black;
-    }
-    tbody{
-        border-style: solid;
-        border-color: black;
-    }
-</style>
