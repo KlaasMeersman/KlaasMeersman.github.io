@@ -17,7 +17,7 @@ De volgende selectie van LEDs is gemaakt door Yuta en Jialiang:
 
 [Datasheet](https://otmm.lumileds.com/adaptivemedia/f0665283471a2a639ce8c3006456265ad074bde9)
 
-De keuze voor de LED's wordt als volgt veklaard:
+De keuze voor de LED's wordt als volgt verklaard:
 <iframe src="Proposal_of_LED_from_Yuta_Leo.pdf" width="100%" height="600px"></iframe>
 
 Er worden 2 identieke PCB's gebruikt om het beoogde aantal LED's aan te sturen.
@@ -55,7 +55,7 @@ De volgende selectie van LEDs is gemaakt door Marta en Hayato:
 
 [Datasheet](https://www.mouser.be/datasheet/2/723/JSeries_2835_Color-3359504.pdf)
 
-De keuze voor de LED's wordt als volgt veklaard:
+De keuze voor de LED's wordt als volgt verklaard:
 <iframe src="LED_selection_proposal_document.pdf" width="100%" height="600px"></iframe>
 
 Er werden 2 types PCB gebruikt om de LED's aan te sturen. De LED-array bestaat uit 3 keer type 1 en éénmaal type 2.
