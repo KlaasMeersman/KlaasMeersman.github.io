@@ -5,6 +5,11 @@ title: Operation
 [**Home**](https://klaasmeersman.github.io/) - [**LEDs en PCB**](/inhoud/leds/) - [**LED-aansturing en bronnen**](/inhoud/aansturingLEDs/) - [**Energiemonitoring**](/inhoud/energiemonitoring/) - [**Watervoorziening**](/inhoud/aquaMonitoring/) - [**Dashboard**](/inhoud/dashboard/) - [**Modulariteit**](/inhoud/modulariteit/) - [**Plantsensing**](/inhoud/plantensensor/) - [**Operation**](/inhoud/operation/) - [**Logboek**](/inhoud/logboek/)
 
 ---
+<style> 
+ .table{
+    border-color: black;
+ }
+</style>
 # Stappenplan inschakelen VF
 ## Stap 1:
 Normaal gezien zit de onderste stekker (Raspberry Pi) nog in, Steek alleen de bovenste stekker in het stopcontact.
