@@ -1,10 +1,14 @@
 
 <style> 
-    table{
+    th{
         border-style: solid;
         border-color: black;
     }
-    tbody{
+    td{
+        border-style: solid;
+        border-color: black;
+    }
+    tr{
         border-style: solid;
         border-color: black;
     }
