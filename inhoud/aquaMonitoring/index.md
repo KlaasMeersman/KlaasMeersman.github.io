@@ -3,6 +3,14 @@
         border-style: solid;
         border-color: black;
     }
+    td{
+        border-style: solid;
+        border-color: black;
+    }
+    tr{
+        border-style: solid;
+        border-color: black;
+    }
 </style>
 
 ---
