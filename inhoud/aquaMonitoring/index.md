@@ -1,17 +1,4 @@
-<style> 
-    .table{
-        border-style: solid;
-        border-color: black;
-    }
-    td{
-        border-style: solid;
-        border-color: black;
-    }
-    tr{
-        border-style: solid;
-        border-color: black;
-    }
-</style>
+
 
 ---
 title: Watervoorziening
@@ -163,3 +150,14 @@ Voor de watervoorziening kunnen nog een aantal zaken geoptimaliseerd worden:
 -Op basis van meerdere groeicycli (met telkens licht gevarieerde parameters) van een plantensoort kan er op zoek gegaan worden naar de ideale voedingscompositie voor de plantensoort. 
 
 -
+
+<style> 
+    thead{
+        border-style: solid;
+        border-color: black;
+    }
+    tbody{
+        border-style: solid;
+        border-color: black;
+    }
+</style>
