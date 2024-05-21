@@ -6,7 +6,7 @@ title: Watervoorziening
 
 ---
 <style> 
-    th{
+    thead{
         border-style: solid;
         border-color: black;
     }
