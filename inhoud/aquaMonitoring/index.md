@@ -29,8 +29,6 @@ De ion-concentratie van de voedingsstoffen (Ca<sup>2+</sup>, K<sup>+</sup> en NO
 
 ![ISE Principle](../images/ISE Principle.png)
 
-(Foto calibratie setup in persoon)
-
 Deze sensoren horen alvorens gebruik gecalibreerd te worden. De volgende ionconcentraties zijn gewenst:
 
 <div class="table">
