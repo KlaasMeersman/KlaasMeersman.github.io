@@ -1,7 +1,8 @@
 <style> 
- .table{
-    border-color: black;
- }
+    .table{
+        border-style: solid;
+        border-color: black;
+    }
 </style>
 
 ---
