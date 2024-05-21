@@ -156,8 +156,6 @@ Om het volume water in de tank binnen grenswaarden te houden maken we gebruik va
 
 Voor de watervoorziening kunnen nog een aantal zaken geoptimaliseerd worden:
 
--Huidig buizen netwerk (mix and match) vervangen door uniforme buizen en connectors 
+-Huidig buizen netwerk (mix and match) vervangen door uniforme buizen en connectors om gelijke flow naar alle bakken te verzekeren.
 
 -Op basis van meerdere groeicycli (met telkens licht gevarieerde parameters) van een plantensoort kan er op zoek gegaan worden naar de ideale voedingscompositie voor de plantensoort. 
-
--
