@@ -1,6 +1,6 @@
 
 <style> 
-    thead{
+    table{
         border-style: solid;
         border-color: black;
     }
