@@ -34,7 +34,7 @@ The following selection of LEDs was made by Yuta and Jialiang:
 The choice for the LEDs is explained as follows:
 <iframe src="Proposal_of_LED_from_Yuta_Leo.pdf" width="100%" height="600px"></iframe>
 
-Two identical PCBs are used to control the intended number of LEDs.
+Two identical [PCBs](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io/tree/main/inhoud/leds/eaglefiles/yuta_jualiang)are used to place the intended number of LEDs.
 
 ![](YutaAndJialiangPCB.png)
 
@@ -53,7 +53,8 @@ The choice for the LEDs is not explained. Presumably, a red/blue ratio of 3/1 is
 |:--------------------------:|:--------------------------:|:----------------------------:|
 |![](MuneebBLUEspectrum.png) | ![](MuneebREDspectrum.png) | ![](MuneebWHITEspectrum.png) |
 
-Two identical PCBs are used to control the intended number of LEDs.
+Two identical [PCBs](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io/tree/main/inhoud/leds/eaglefiles/muneeb) are used to place the intended number of LEDs.
+
 
 ![](MuneebPCB.png)
 
@@ -72,7 +73,7 @@ The following selection of LEDs was made by Marta and Hayato:
 The choice for the LEDs is explained as follows:
 <iframe src="LED_selection_proposal_document.pdf" width="100%" height="600px"></iframe>
 
-Two types of PCBs were used to control the LEDs. The LED array consists of three type 1 and one type 2.
+Two types of PCBs were used to place the LEDs. The LED array consists of three type 1 and one type 2.
 
 The following PCB was designed:
 ![](Type1afb.png)

@@ -21,10 +21,10 @@ This LED array is powered by [one 1050mA constant current source](https://www.mo
 
 The total power consumption is theoretically 27.9W when they are on.
 
-<span style="color:red">Note that the positive terminal of the power source is always connected to the negative pad on the board.</span> This is due to an error in designing the LED component in the PCB design.
+<span style="color:red">Note that the positive terminal of the power source is connected to the negative pads on the board.</span> This is due to an error in designing the LED component in the PCB design.
 The wiring is as follows:
 
-<img src="Yuta_Jualiang_bedrading.png" alt="alt text" style="width:600px;">
+<img src="images/Yuta_Jualiang_bedrading.png" alt="alt text" style="width:600px;">
 
 
 
@@ -44,7 +44,7 @@ The total power consumption is theoretically 112.6W when they are on.
 
 The wiring is as follows:
 
-<img src="Muneeb bedrading.png" alt="alt text" style="width:600px;">
+<img src="images/Muneeb bedrading.png" alt="alt text" style="width:600px;">
 
 
 ---
@@ -66,7 +66,7 @@ The total power consumption is theoretically 32.2W when they are on.
 
 The wiring is as follows:
 
-<img src="LED1.jpg" alt="alt text" style="width:600px;">
+<img src="images/Martha_Hayato_bedrading.jpg" alt="alt text" style="width:600px;">
 
 # Controlling the LED Sources
 The LED sources are controlled by a controller board (POWERLOGGER, LEDs SWITCH board).
