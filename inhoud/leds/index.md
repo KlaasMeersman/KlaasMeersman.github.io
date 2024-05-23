@@ -6,9 +6,18 @@ title: LEDs and their PCB
 
 ---
 <style> 
- .table{
-    border-color: black;
- }
+    table{
+        border-style: solid;
+        border-color: black;
+    }
+    td{
+        border-style: solid;
+        border-color: black;
+    }
+    tr{
+        border-style: solid;
+        border-color: black;
+    }
 </style>
 
 # Rechter LED-array: Yuta en Jualiang
