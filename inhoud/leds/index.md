@@ -36,7 +36,7 @@ The choice for the LEDs is explained as follows:
 
 Two identical [PCBs](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io/tree/main/inhoud/leds/eaglefiles/yuta_jualiang)are used to place the intended number of LEDs.
 
-![](YutaAndJialiangPCB.png)
+![](images/YutaAndJialiangPCB.png)
 
 ---
 
@@ -51,12 +51,12 @@ The choice for the LEDs is not explained. Presumably, a red/blue ratio of 3/1 is
 
 | Blue                      | Red                        | White                           | 
 |:--------------------------:|:--------------------------:|:----------------------------:|
-|![](MuneebBLUEspectrum.png) | ![](MuneebREDspectrum.png) | ![](MuneebWHITEspectrum.png) |
+|![](images/MuneebBLUEspectrum.png) | ![](images/MuneebREDspectrum.png) | ![](images/MuneebWHITEspectrum.png) |
 
 Two identical [PCBs](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io/tree/main/inhoud/leds/eaglefiles/muneeb) are used to place the intended number of LEDs.
 
 
-![](MuneebPCB.png)
+![](images/MuneebPCB.png)
 
 ---
 
@@ -76,5 +76,5 @@ The choice for the LEDs is explained as follows:
 Two types of PCBs were used to place the LEDs. The LED array consists of three type 1 and one type 2.
 
 The following PCB was designed:
-![](Type1afb.png)
-![](Type2afb.png)
+![](images/Type1afb.png)
+![](images/Type2afb.png)
