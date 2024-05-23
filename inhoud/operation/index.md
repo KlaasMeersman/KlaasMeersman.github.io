@@ -6,10 +6,20 @@ title: Operation
 
 ---
 <style> 
- .table{
-    border-color: black;
- }
+    table{
+        border-style: solid;
+        border-color: black;
+    }
+    td{
+        border-style: solid;
+        border-color: black;
+    }
+    tr{
+        border-style: solid;
+        border-color: black;
+    }
 </style>
+
 # Stappenplan inschakelen VF
 ## Stap 1:
 Normaal gezien zit de onderste stekker (Raspberry Pi) nog in, Steek alleen de bovenste stekker in het stopcontact.
