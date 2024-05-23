@@ -73,7 +73,7 @@ The following selection of LEDs was made by Marta and Hayato:
 The choice for the LEDs is explained as follows:
 <iframe src="LED_selection_proposal_document.pdf" width="100%" height="600px"></iframe>
 
-Two types of PCBs were used to place the LEDs. The LED array consists of three [type 1](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io\inhoud\energiemonitoring\PCBs Bert (Type1, Type2, Powerlogger)\Type1) and one [type 2](https://github.com/VerticalFarmIB3/VerticalFarmIB3.github.io\inhoud\energiemonitoring\PCBs Bert (Type1, Type2, Powerlogger)\Type2).
+Two types of PCBs were used to place the LEDs. The LED array consists of three [type 1](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/Type1) and one [type 2](https://github.com/KlaasMeersman/KlaasMeersman.github.io/tree/main/inhoud/energiemonitoring/PCBs%20Bert%20(Type1%2C%20Type2%2C%20Powerlogger)/Type2).
 
 The following PCB was designed:
 ![](images/Type1afb.png)
