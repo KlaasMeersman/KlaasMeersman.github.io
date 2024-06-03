@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Vertical farm - IB3
-email: klaas.meersman@student.kuleuven.be, axel.martens@student.kuleuven.be, arthur.valentin@student.kuleuven.be, bert.pyck@student.kuleuven.be, ybe.vandamme@student.kuleuven.be, joeri.sevens@student.kuleuven.be, florian.vandenbogaerde@student.kuleuven.be
+title: Klaas Meersman
+email: klaas.meersman@student.kuleuven.be
 description: >- # this means to ignore newlines until "baseurl:"
-  A description of the vertical farm in Building B, second floor, on the KU Leuven campus in Ghent. This website is used to document the project.
+  Personal website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://klaasmeersman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: /
@@ -37,14 +37,7 @@ kramdown:
 
 header_pages:
   - inhoud/leds/index.md
-  - inhoud/aansturingLEDs/index.md
-  - inhoud/energiemonitoring/index.md
-  - inhoud/aquaMonitoring/index.md
-  - inhoud/dashboard/index.md
-  - inhoud/modulariteit/index.md
-  - inhoud/plantensensor/index.md
-  - inhoud/operation/index.md
-  - inhoud/logboek/index.md
+  
   
 google_site_verification: "cBYpSqc17Jx3NXWnR6gz8v8d7Gs7lRmBOXAHTUqdOyM"
 
